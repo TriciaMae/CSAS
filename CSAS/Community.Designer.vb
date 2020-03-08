@@ -46,13 +46,16 @@ Partial Class Community
         Me.Minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Minimize.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Minimize.FlatAppearance.BorderSize = 0
+        Me.Minimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
+        Me.Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
-        Me.Minimize.Location = New System.Drawing.Point(427, 6)
-        Me.Minimize.MaximumSize = New System.Drawing.Size(20, 20)
-        Me.Minimize.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.Minimize.Location = New System.Drawing.Point(569, 7)
+        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
+        Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
+        Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.Name = "Minimize"
-        Me.Minimize.Size = New System.Drawing.Size(20, 20)
+        Me.Minimize.Size = New System.Drawing.Size(27, 25)
         Me.Minimize.TabIndex = 5
         Me.Minimize.UseVisualStyleBackColor = False
         '
@@ -63,12 +66,15 @@ Partial Class Community
         Me.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CloseButton.FlatAppearance.BorderSize = 0
+        Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
+        Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CloseButton.Location = New System.Drawing.Point(464, 6)
-        Me.CloseButton.MaximumSize = New System.Drawing.Size(20, 20)
-        Me.CloseButton.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.CloseButton.Location = New System.Drawing.Point(619, 7)
+        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
+        Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.Size = New System.Drawing.Size(20, 20)
+        Me.CloseButton.Size = New System.Drawing.Size(27, 25)
         Me.CloseButton.TabIndex = 4
         Me.CloseButton.UseVisualStyleBackColor = False
         '
@@ -78,9 +84,10 @@ Partial Class Community
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(52, 44)
+        Me.Label1.Location = New System.Drawing.Point(69, 54)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(181, 22)
+        Me.Label1.Size = New System.Drawing.Size(219, 26)
         Me.Label1.TabIndex = 28
         Me.Label1.Text = "Suspend Classes for:"
         '
@@ -90,9 +97,10 @@ Partial Class Community
         Me.SchoolLevel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SchoolLevel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.SchoolLevel.FormattingEnabled = True
-        Me.SchoolLevel.Location = New System.Drawing.Point(88, 233)
+        Me.SchoolLevel.Location = New System.Drawing.Point(117, 287)
+        Me.SchoolLevel.Margin = New System.Windows.Forms.Padding(4)
         Me.SchoolLevel.Name = "SchoolLevel"
-        Me.SchoolLevel.Size = New System.Drawing.Size(317, 26)
+        Me.SchoolLevel.Size = New System.Drawing.Size(421, 32)
         Me.SchoolLevel.TabIndex = 40
         Me.SchoolLevel.Text = "                              School Level"
         '
@@ -102,9 +110,10 @@ Partial Class Community
         Me.LevelLabel.BackColor = System.Drawing.Color.Transparent
         Me.LevelLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LevelLabel.ForeColor = System.Drawing.Color.Black
-        Me.LevelLabel.Location = New System.Drawing.Point(85, 206)
+        Me.LevelLabel.Location = New System.Drawing.Point(113, 254)
+        Me.LevelLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LevelLabel.Name = "LevelLabel"
-        Me.LevelLabel.Size = New System.Drawing.Size(118, 22)
+        Me.LevelLabel.Size = New System.Drawing.Size(143, 26)
         Me.LevelLabel.TabIndex = 39
         Me.LevelLabel.Text = "School Level:"
         '
@@ -114,9 +123,10 @@ Partial Class Community
         Me.ProvCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ProvCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.ProvCombo.FormattingEnabled = True
-        Me.ProvCombo.Location = New System.Drawing.Point(88, 170)
+        Me.ProvCombo.Location = New System.Drawing.Point(117, 209)
+        Me.ProvCombo.Margin = New System.Windows.Forms.Padding(4)
         Me.ProvCombo.Name = "ProvCombo"
-        Me.ProvCombo.Size = New System.Drawing.Size(317, 26)
+        Me.ProvCombo.Size = New System.Drawing.Size(421, 32)
         Me.ProvCombo.TabIndex = 38
         Me.ProvCombo.Text = "                                 Province"
         '
@@ -126,33 +136,41 @@ Partial Class Community
         Me.ProvinceLabel.BackColor = System.Drawing.Color.Transparent
         Me.ProvinceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ProvinceLabel.ForeColor = System.Drawing.Color.Black
-        Me.ProvinceLabel.Location = New System.Drawing.Point(85, 142)
+        Me.ProvinceLabel.Location = New System.Drawing.Point(113, 175)
+        Me.ProvinceLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.ProvinceLabel.Name = "ProvinceLabel"
-        Me.ProvinceLabel.Size = New System.Drawing.Size(85, 22)
+        Me.ProvinceLabel.Size = New System.Drawing.Size(103, 26)
         Me.ProvinceLabel.TabIndex = 37
         Me.ProvinceLabel.Text = "Province:"
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
-        Me.Button1.Location = New System.Drawing.Point(278, 336)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
+        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.Button1.Location = New System.Drawing.Point(358, 414)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 37)
+        Me.Button1.Size = New System.Drawing.Size(120, 40)
         Me.Button1.TabIndex = 36
         Me.Button1.Text = "SUSPEND"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'CancellButton
         '
-        Me.CancellButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
-        Me.CancellButton.Location = New System.Drawing.Point(148, 336)
-        Me.CancellButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.CancellButton.BackColor = System.Drawing.Color.Brown
+        Me.CancellButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CancellButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
+        Me.CancellButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.CancellButton.Location = New System.Drawing.Point(184, 414)
+        Me.CancellButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CancellButton.Name = "CancellButton"
-        Me.CancellButton.Size = New System.Drawing.Size(75, 37)
+        Me.CancellButton.Size = New System.Drawing.Size(120, 40)
         Me.CancellButton.TabIndex = 35
         Me.CancellButton.Text = "CANCEL"
-        Me.CancellButton.UseVisualStyleBackColor = True
+        Me.CancellButton.UseVisualStyleBackColor = False
         '
         'CityCombo
         '
@@ -160,9 +178,10 @@ Partial Class Community
         Me.CityCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CityCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.CityCombo.FormattingEnabled = True
-        Me.CityCombo.Location = New System.Drawing.Point(226, 107)
+        Me.CityCombo.Location = New System.Drawing.Point(301, 132)
+        Me.CityCombo.Margin = New System.Windows.Forms.Padding(4)
         Me.CityCombo.Name = "CityCombo"
-        Me.CityCombo.Size = New System.Drawing.Size(180, 26)
+        Me.CityCombo.Size = New System.Drawing.Size(239, 32)
         Me.CityCombo.TabIndex = 34
         Me.CityCombo.Text = "                   City"
         '
@@ -172,9 +191,10 @@ Partial Class Community
         Me.CityLabel.BackColor = System.Drawing.Color.Transparent
         Me.CityLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CityLabel.ForeColor = System.Drawing.Color.Black
-        Me.CityLabel.Location = New System.Drawing.Point(222, 80)
+        Me.CityLabel.Location = New System.Drawing.Point(296, 98)
+        Me.CityLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.CityLabel.Name = "CityLabel"
-        Me.CityLabel.Size = New System.Drawing.Size(46, 22)
+        Me.CityLabel.Size = New System.Drawing.Size(56, 26)
         Me.CityLabel.TabIndex = 33
         Me.CityLabel.Text = "City:"
         '
@@ -184,10 +204,10 @@ Partial Class Community
         Me.DateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText
         Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.AliceBlue
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(88, 296)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(117, 364)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(317, 24)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(421, 29)
         Me.DateTimePicker1.TabIndex = 32
         '
         'RegionCombo
@@ -196,9 +216,10 @@ Partial Class Community
         Me.RegionCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RegionCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.RegionCombo.FormattingEnabled = True
-        Me.RegionCombo.Location = New System.Drawing.Point(88, 107)
+        Me.RegionCombo.Location = New System.Drawing.Point(117, 132)
+        Me.RegionCombo.Margin = New System.Windows.Forms.Padding(4)
         Me.RegionCombo.Name = "RegionCombo"
-        Me.RegionCombo.Size = New System.Drawing.Size(104, 26)
+        Me.RegionCombo.Size = New System.Drawing.Size(137, 32)
         Me.RegionCombo.TabIndex = 31
         Me.RegionCombo.Text = "     Region"
         '
@@ -208,9 +229,10 @@ Partial Class Community
         Me.DateTimeLabel.BackColor = System.Drawing.Color.Transparent
         Me.DateTimeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimeLabel.ForeColor = System.Drawing.Color.Black
-        Me.DateTimeLabel.Location = New System.Drawing.Point(85, 268)
+        Me.DateTimeLabel.Location = New System.Drawing.Point(113, 330)
+        Me.DateTimeLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.DateTimeLabel.Name = "DateTimeLabel"
-        Me.DateTimeLabel.Size = New System.Drawing.Size(133, 22)
+        Me.DateTimeLabel.Size = New System.Drawing.Size(160, 26)
         Me.DateTimeLabel.TabIndex = 30
         Me.DateTimeLabel.Text = "Date and Time:"
         '
@@ -220,19 +242,20 @@ Partial Class Community
         Me.RegionLabel.BackColor = System.Drawing.Color.Transparent
         Me.RegionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RegionLabel.ForeColor = System.Drawing.Color.Black
-        Me.RegionLabel.Location = New System.Drawing.Point(85, 80)
+        Me.RegionLabel.Location = New System.Drawing.Point(113, 98)
+        Me.RegionLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.RegionLabel.Name = "RegionLabel"
-        Me.RegionLabel.Size = New System.Drawing.Size(72, 22)
+        Me.RegionLabel.Size = New System.Drawing.Size(87, 26)
         Me.RegionLabel.TabIndex = 29
         Me.RegionLabel.Text = "Region:"
         '
         'Community
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.CSAS.My.Resources.Resources.PopUp1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(491, 418)
+        Me.ClientSize = New System.Drawing.Size(655, 514)
         Me.Controls.Add(Me.SchoolLevel)
         Me.Controls.Add(Me.LevelLabel)
         Me.Controls.Add(Me.ProvCombo)
@@ -249,9 +272,11 @@ Partial Class Community
         Me.Controls.Add(Me.Minimize)
         Me.Controls.Add(Me.CloseButton)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.MaximumSize = New System.Drawing.Size(491, 418)
-        Me.MinimumSize = New System.Drawing.Size(491, 418)
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximumSize = New System.Drawing.Size(655, 514)
+        Me.MinimumSize = New System.Drawing.Size(655, 514)
         Me.Name = "Community"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Community"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -34,9 +34,11 @@ Partial Class Index
         Me.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CloseButton.FlatAppearance.BorderSize = 0
+        Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
+        Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CloseButton.Location = New System.Drawing.Point(819, 7)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
         Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.Name = "CloseButton"
@@ -51,10 +53,12 @@ Partial Class Index
         Me.Minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Minimize.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Minimize.FlatAppearance.BorderSize = 0
+        Me.Minimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
+        Me.Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
         Me.Minimize.Location = New System.Drawing.Point(769, 7)
-        Me.Minimize.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
         Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.Name = "Minimize"
@@ -71,7 +75,7 @@ Partial Class Index
         Me.Login.FlatAppearance.BorderSize = 0
         Me.Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Login.Location = New System.Drawing.Point(307, 506)
-        Me.Login.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Login.Margin = New System.Windows.Forms.Padding(4)
         Me.Login.MaximumSize = New System.Drawing.Size(240, 52)
         Me.Login.MinimumSize = New System.Drawing.Size(240, 52)
         Me.Login.Name = "Login"
@@ -90,10 +94,11 @@ Partial Class Index
         Me.Controls.Add(Me.Minimize)
         Me.Controls.Add(Me.CloseButton)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximumSize = New System.Drawing.Size(853, 591)
         Me.MinimumSize = New System.Drawing.Size(853, 591)
         Me.Name = "Index"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Index"
         Me.ResumeLayout(False)
 

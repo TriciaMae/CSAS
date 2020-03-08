@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSAS"
+    "\\CSAS",
+    "\\CSAS\\Resources"
   ],
+  "SelectedNode": "\\CSAS\\PopUpTemplate.vb",
   "PreviewInSolutionExplorer": false
 }

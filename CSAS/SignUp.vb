@@ -8,13 +8,15 @@ Public Class SignUp
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles backBtn.Click
         Me.Hide()
         Login.Show()
     End Sub
 
     Private Sub FNtext_MouseDown(sender As Object, e As MouseEventArgs) Handles FNtext.MouseDown
         FNtext.Text = ""
+
+
     End Sub
 
     Private Sub LNtext_MouseDown(sender As Object, e As MouseEventArgs) Handles LNtext.MouseDown
@@ -23,6 +25,22 @@ Public Class SignUp
 
     Private Sub PhoneNum(sender As Object, e As MouseEventArgs) Handles NumText.MouseDown
         NumText.Text = ""
+    End Sub
+
+    Private Sub Province_MouseDown(sender As Object, e As MouseEventArgs) Handles Province.MouseDown
+        Province.Text = ""
+    End Sub
+
+    Private Sub City_MouseDown(sender As Object, e As MouseEventArgs) Handles City.MouseDown
+        City.Text = ""
+    End Sub
+
+    Private Sub School_MouseDown(sender As Object, e As MouseEventArgs) Handles School.MouseDown
+        School.Text = ""
+    End Sub
+
+    Private Sub SchoolLevel_MouseDown(sender As Object, e As MouseEventArgs) Handles SchoolLevel.MouseDown
+        SchoolLevel.Text = ""
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -57,4 +75,5 @@ Public Class SignUp
             MySqlConn.Dispose()
         End Try
     End Sub
+
 End Class

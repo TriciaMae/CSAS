@@ -64,7 +64,7 @@ Public Class School
         End Using
     End Function
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles suspendBtn.Click
         'send btn
         Dim result = GrpTxt()
         If result = 0 Then

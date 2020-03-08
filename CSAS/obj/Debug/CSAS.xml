@@ -22,6 +22,11 @@ CSAS
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:CSAS.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CSAS.My.Resources.Resources.ExitButton">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -82,7 +87,27 @@ CSAS
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CSAS.My.Resources.Resources.profile_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.profile_256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CSAS.My.Resources.Resources.SignupBlue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.Suspend">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.undo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

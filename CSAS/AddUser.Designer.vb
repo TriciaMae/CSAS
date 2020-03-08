@@ -45,6 +45,8 @@ Partial Class AddUser
         Me.Minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Minimize.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Minimize.FlatAppearance.BorderSize = 0
+        Me.Minimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
+        Me.Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
         Me.Minimize.Location = New System.Drawing.Point(569, 7)
@@ -63,6 +65,8 @@ Partial Class AddUser
         Me.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CloseButton.FlatAppearance.BorderSize = 0
+        Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
+        Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CloseButton.Location = New System.Drawing.Point(619, 7)
         Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
@@ -262,6 +266,7 @@ Partial Class AddUser
         Me.MaximumSize = New System.Drawing.Size(653, 515)
         Me.MinimumSize = New System.Drawing.Size(653, 515)
         Me.Name = "AddUser"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "AddUser"
         Me.ResumeLayout(False)
         Me.PerformLayout()
