@@ -27,9 +27,9 @@ Partial Class AdminHome
         Me.SuspendLabel = New System.Windows.Forms.Label()
         Me.LogOut = New System.Windows.Forms.Label()
         Me.SchoolButton = New System.Windows.Forms.Button()
-        Me.CommunityButton = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.CommunityButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Minimize
@@ -103,20 +103,6 @@ Partial Class AdminHome
         Me.SchoolButton.Text = "SCHOOL"
         Me.SchoolButton.UseVisualStyleBackColor = False
         '
-        'CommunityButton
-        '
-        Me.CommunityButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer))
-        Me.CommunityButton.FlatAppearance.BorderSize = 0
-        Me.CommunityButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CommunityButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CommunityButton.Location = New System.Drawing.Point(365, 213)
-        Me.CommunityButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.CommunityButton.Name = "CommunityButton"
-        Me.CommunityButton.Size = New System.Drawing.Size(128, 138)
-        Me.CommunityButton.TabIndex = 9
-        Me.CommunityButton.Text = "COMMUNITY"
-        Me.CommunityButton.UseVisualStyleBackColor = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -142,6 +128,20 @@ Partial Class AdminHome
         Me.Button1.TabIndex = 11
         Me.Button1.Text = "MANAGE USERS"
         Me.Button1.UseVisualStyleBackColor = False
+        '
+        'CommunityButton
+        '
+        Me.CommunityButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.CommunityButton.FlatAppearance.BorderSize = 0
+        Me.CommunityButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CommunityButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CommunityButton.Location = New System.Drawing.Point(365, 213)
+        Me.CommunityButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.CommunityButton.Name = "CommunityButton"
+        Me.CommunityButton.Size = New System.Drawing.Size(128, 138)
+        Me.CommunityButton.TabIndex = 9
+        Me.CommunityButton.Text = "COMMUNITY"
+        Me.CommunityButton.UseVisualStyleBackColor = False
         '
         'AdminHome
         '
@@ -174,7 +174,7 @@ Partial Class AdminHome
     Friend WithEvents SuspendLabel As Label
     Friend WithEvents LogOut As Label
     Friend WithEvents SchoolButton As Button
-    Friend WithEvents CommunityButton As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents CommunityButton As Button
 End Class

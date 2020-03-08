@@ -19,7 +19,7 @@ Public Class Login
         Dim MySqlConn As MySqlConnection
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "server=localhost; userid=root; password=; database=csas"
-        Dim command As New MySqlCommand("select * from user where username = @username and password = @password", MySqlConn)
+        Dim command As New MySqlCommand("select * from users where username = @username and password = @password", MySqlConn)
         command.Parameters.Add("@username", MySqlDbType.VarChar).Value = TextUser.Text
         command.Parameters.Add("@password", MySqlDbType.VarChar).Value = TextPass.Text
         Dim adapter As New MySqlDataAdapter(command)

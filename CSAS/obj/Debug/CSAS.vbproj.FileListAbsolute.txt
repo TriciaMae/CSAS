@@ -151,3 +151,5 @@ C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.vbproj.CopyComplete
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.exe
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.xml
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.pdb
+C:\Users\Tedbu\source\repos\CSAS\CSAS\bin\Debug\CSAS.pdb
+C:\Users\Tedbu\source\repos\CSAS\CSAS\bin\Debug\CSAS.xml

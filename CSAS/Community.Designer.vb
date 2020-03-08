@@ -136,7 +136,7 @@ Partial Class Community
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.Button1.Location = New System.Drawing.Point(278, 336)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 37)
         Me.Button1.TabIndex = 36
@@ -147,7 +147,7 @@ Partial Class Community
         '
         Me.CancellButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.CancellButton.Location = New System.Drawing.Point(148, 336)
-        Me.CancellButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CancellButton.Margin = New System.Windows.Forms.Padding(2)
         Me.CancellButton.Name = "CancellButton"
         Me.CancellButton.Size = New System.Drawing.Size(75, 37)
         Me.CancellButton.TabIndex = 35
@@ -185,7 +185,7 @@ Partial Class Community
         Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.AliceBlue
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Location = New System.Drawing.Point(88, 296)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(317, 24)
         Me.DateTimePicker1.TabIndex = 32

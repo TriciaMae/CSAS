@@ -146,6 +146,7 @@ Partial Class Login
         '
         Me.SignUpNow.AutoSize = True
         Me.SignUpNow.BackColor = System.Drawing.Color.Transparent
+        Me.SignUpNow.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SignUpNow.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SignUpNow.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(121, Byte), Integer))
         Me.SignUpNow.Location = New System.Drawing.Point(479, 388)

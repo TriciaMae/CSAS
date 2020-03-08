@@ -1,4 +1,7 @@
-﻿Public Class ManageUsers
+﻿Imports MySql.Data.MySqlClient
+Public Class ManageUsers
+    Dim MySqlConn As MySqlConnection
+    Dim command As New MySqlCommand
     Private Sub LogOut_Click(sender As Object, e As EventArgs) Handles LogOut.Click
         Me.Hide()
         Dim x As New Login
@@ -11,13 +14,13 @@
         AdminHome.Show()
     End Sub
 
-    Private Sub EditButton_Click(sender As Object, e As EventArgs) Handles EditButton.Click
+    Private Sub EditButton_Click(sender As Object, e As EventArgs)
         Me.Hide()
         Dim x As New EditUser
         EditUser.Show()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -39,5 +42,29 @@
         Me.Hide()
         Dim x As New AdminHome
         AdminHome.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        MySqlConn = New MySqlConnection
+        MySqlConn.ConnectionString = "server=localhost; userid=root; password=; database=csas"
+        Dim sda As New MySqlDataAdapter
+        Dim dbdataset As New DataTable
+        Dim bsource As New BindingSource
+
+        Try
+            MySqlConn.Open()
+            Dim query As String = "select * from csas.users"
+            command = New MySqlCommand(query, MySqlConn)
+            sda.SelectCommand = command
+            sda.Fill(dbdataset)
+            bsource.DataSource = dbdataset
+            DataGridView1.DataSource = bsource
+            sda.Update(dbdataset)
+            MySqlConn.Close()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        Finally
+            MySqlConn.Dispose()
+        End Try
     End Sub
 End Class
