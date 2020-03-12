@@ -183,3 +183,33 @@ C:\Users\leanne\Desktop\CLONE 4.3\CSAS\obj\Debug\CSAS.exe
 C:\Users\leanne\Desktop\CLONE 4.3\CSAS\obj\Debug\CSAS.xml
 C:\Users\leanne\Desktop\CLONE 4.3\CSAS\obj\Debug\CSAS.pdb
 C:\Users\leanne\Desktop\CLONE 4.3\CSAS\obj\Debug\CSAS.UserHome.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\CSAS.exe.config
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\CSAS.exe
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\CSAS.pdb
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\CSAS.xml
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\MySql.Data.dll
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\Google.Protobuf.dll
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\Renci.SshNet.dll
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\bin\Debug\MySql.Data.xml
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.vbprojAssemblyReference.cache
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.UserHome.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.EditUser.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.AdminHome.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.AddUser.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.Deactivate.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.PopUpTemplate.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.ManageUsers.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.School.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.Community.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.Template.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.Index.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.SignUp.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.Login.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.Resources.resources
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.vbproj.GenerateResource.cache
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.vbproj.CopyComplete
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.exe
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.xml
+C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.pdb
