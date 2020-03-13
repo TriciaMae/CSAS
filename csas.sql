@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 07, 2020 at 02:57 PM
+-- Generation Time: Mar 13, 2020 at 02:32 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -21,6 +21,32 @@ SET time_zone = "+00:00";
 --
 -- Database: `csas`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `comm`
+--
+
+CREATE TABLE `comm` (
+  `id` int(30) NOT NULL,
+  `cp` varchar(11) NOT NULL,
+  `region` varchar(50) NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `province` varchar(50) NOT NULL,
+  `lvl` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `comm`
+--
+
+INSERT INTO `comm` (`id`, `cp`, `region`, `city`, `province`, `lvl`) VALUES
+(1, '09154244355', 'NCR', 'Manila', 'Metro Manila', 'College'),
+(2, '09164344363', 'NCR', 'Manila', 'Metro Manila', 'College'),
+(3, '09055111349', 'NCR', 'Quezon City', 'Quezon City ', 'College'),
+(4, '09613655290', 'NCR', 'Quezon City', 'Batangas', 'College'),
+(5, '09260490174', 'NCR', 'Quezon City', 'Batangas', 'Elementary');
 
 -- --------------------------------------------------------
 
@@ -89,7 +115,7 @@ CREATE TABLE `send` (
 --
 
 INSERT INTO `send` (`id`, `school`, `lvl`, `cp_num`) VALUES
-(1, 'PUP', 'College', '09154244355'),
+(1, 'PUP', 'College', '01234567890'),
 (2, 'PUP', 'High School', '09164344363'),
 (3, 'UST', 'College', '09613655290'),
 (4, 'Ramon Magsaysay', 'Elementary', '09260490174'),
