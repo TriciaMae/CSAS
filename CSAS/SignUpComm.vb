@@ -1,5 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class SignUp
+Public Class SignUpComm
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
         Me.Close()
     End Sub
@@ -13,37 +13,37 @@ Public Class SignUp
         Login.Show()
     End Sub
 
-    Private Sub FNtext_MouseDown(sender As Object, e As MouseEventArgs)
+    Private Sub FNtext_MouseDown(sender As Object, e As MouseEventArgs) Handles FNtext.MouseDown
         FNtext.Text = ""
 
 
     End Sub
 
-    Private Sub LNtext_MouseDown(sender As Object, e As MouseEventArgs)
+    Private Sub LNtext_MouseDown(sender As Object, e As MouseEventArgs) Handles LNtext.MouseDown
         LNtext.Text = ""
     End Sub
 
-    Private Sub PhoneNum(sender As Object, e As MouseEventArgs)
+    Private Sub PhoneNum(sender As Object, e As MouseEventArgs) Handles NumText.MouseDown
         NumText.Text = ""
     End Sub
 
-    Private Sub Province_MouseDown(sender As Object, e As MouseEventArgs)
-        Province.Text = ""
+    Private Sub Province_MouseDown(sender As Object, e As MouseEventArgs) Handles Region.MouseDown
+        Region.Text = ""
     End Sub
 
-    Private Sub City_MouseDown(sender As Object, e As MouseEventArgs)
+    Private Sub City_MouseDown(sender As Object, e As MouseEventArgs) Handles City.MouseDown
         City.Text = ""
     End Sub
 
-    Private Sub School_MouseDown(sender As Object, e As MouseEventArgs)
-        School.Text = ""
+    Private Sub School_MouseDown(sender As Object, e As MouseEventArgs) Handles Region.MouseDown
+        Region.Text = ""
     End Sub
 
-    Private Sub SchoolLevel_MouseDown(sender As Object, e As MouseEventArgs)
-        SchoolLevel.Text = ""
+    Private Sub SchoolLevel_MouseDown(sender As Object, e As MouseEventArgs) Handles Province.MouseDown
+        Province.Text = ""
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs)
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim MySqlConn As MySqlConnection
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "server=localhost; userid=root; password=; database=csas"
@@ -51,10 +51,10 @@ Public Class SignUp
         command.Parameters.Add("@Fn", MySqlDbType.VarChar).Value = FNtext.Text
         command.Parameters.Add("@Ln", MySqlDbType.VarChar).Value = LNtext.Text
         command.Parameters.Add("@Cp", MySqlDbType.VarChar).Value = NumText.Text
-        command.Parameters.Add("@Prov", MySqlDbType.VarChar).Value = Province.Text
+        command.Parameters.Add("@Prov", MySqlDbType.VarChar).Value = Region.Text
         command.Parameters.Add("@City", MySqlDbType.VarChar).Value = City.Text
-        command.Parameters.Add("@Sch", MySqlDbType.VarChar).Value = School.Text
-        command.Parameters.Add("@Lvl", MySqlDbType.VarChar).Value = SchoolLevel.Text
+        command.Parameters.Add("@Sch", MySqlDbType.VarChar).Value = Region.Text
+        command.Parameters.Add("@Lvl", MySqlDbType.VarChar).Value = Province.Text
         Dim adapter As New MySqlDataAdapter(command)
         Dim table As New DataTable()
         adapter.Fill(table)
@@ -76,13 +76,10 @@ Public Class SignUp
         End Try
     End Sub
 
-    Private Sub schoolUserBtn_Click(sender As Object, e As EventArgs) Handles schoolUserBtn.Click
+    Private Sub backBtn_Click(sender As Object, e As EventArgs) Handles backBtn.Click
         Me.Hide()
-        SignUpSchool.Show()
+        Login.Show()
     End Sub
 
-    Private Sub commUserBtn_Click(sender As Object, e As EventArgs) Handles commUserBtn.Click
-        Me.Hide()
-        SignUpComm.Show()
-    End Sub
+
 End Class

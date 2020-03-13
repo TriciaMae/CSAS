@@ -138,7 +138,7 @@ Partial Class School
         Me.DateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText
         Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.AliceBlue
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(116, 320)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(116, 321)
         Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(421, 29)
@@ -175,12 +175,12 @@ Partial Class School
         Me.SklCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.SklCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.SklCombo.FormattingEnabled = True
-        Me.SklCombo.Location = New System.Drawing.Point(116, 154)
+        Me.SklCombo.Location = New System.Drawing.Point(116, 149)
         Me.SklCombo.Margin = New System.Windows.Forms.Padding(4)
         Me.SklCombo.Name = "SklCombo"
         Me.SklCombo.Size = New System.Drawing.Size(421, 33)
         Me.SklCombo.TabIndex = 33
-        Me.SklCombo.Text = "School"
+        Me.SklCombo.Text = " School"
         '
         'sklLvlCombo
         '
@@ -192,7 +192,7 @@ Partial Class School
         Me.sklLvlCombo.Name = "sklLvlCombo"
         Me.sklLvlCombo.Size = New System.Drawing.Size(421, 33)
         Me.sklLvlCombo.TabIndex = 34
-        Me.sklLvlCombo.Text = "School Level"
+        Me.sklLvlCombo.Text = " School Level"
         '
         'School
         '

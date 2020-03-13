@@ -46,7 +46,7 @@ Partial Class Login
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
         Me.Minimize.Location = New System.Drawing.Point(769, 7)
-        Me.Minimize.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
         Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.Name = "Minimize"
@@ -65,7 +65,7 @@ Partial Class Login
         Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CloseButton.Location = New System.Drawing.Point(819, 7)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
         Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.Name = "CloseButton"
@@ -105,7 +105,7 @@ Partial Class Login
         Me.TextUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextUser.Location = New System.Drawing.Point(433, 228)
-        Me.TextUser.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextUser.Margin = New System.Windows.Forms.Padding(4)
         Me.TextUser.Name = "TextUser"
         Me.TextUser.Size = New System.Drawing.Size(289, 26)
         Me.TextUser.TabIndex = 7
@@ -129,7 +129,7 @@ Partial Class Login
         Me.TextPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextPass.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextPass.Location = New System.Drawing.Point(433, 334)
-        Me.TextPass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextPass.Margin = New System.Windows.Forms.Padding(4)
         Me.TextPass.Name = "TextPass"
         Me.TextPass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(35)
         Me.TextPass.ShortcutsEnabled = False
@@ -143,7 +143,7 @@ Partial Class Login
         Me.DontHaveAccount.BackColor = System.Drawing.Color.Transparent
         Me.DontHaveAccount.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DontHaveAccount.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.DontHaveAccount.Location = New System.Drawing.Point(380, 478)
+        Me.DontHaveAccount.Location = New System.Drawing.Point(384, 478)
         Me.DontHaveAccount.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.DontHaveAccount.Name = "DontHaveAccount"
         Me.DontHaveAccount.Size = New System.Drawing.Size(250, 25)
@@ -157,7 +157,7 @@ Partial Class Login
         Me.SignUpNow.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SignUpNow.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SignUpNow.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(121, Byte), Integer))
-        Me.SignUpNow.Location = New System.Drawing.Point(639, 478)
+        Me.SignUpNow.Location = New System.Drawing.Point(635, 478)
         Me.SignUpNow.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.SignUpNow.Name = "SignUpNow"
         Me.SignUpNow.Size = New System.Drawing.Size(127, 25)
@@ -173,7 +173,7 @@ Partial Class Login
         Me.LoginButton.FlatAppearance.BorderSize = 0
         Me.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.LoginButton.Location = New System.Drawing.Point(483, 416)
-        Me.LoginButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LoginButton.Margin = New System.Windows.Forms.Padding(4)
         Me.LoginButton.Name = "LoginButton"
         Me.LoginButton.Size = New System.Drawing.Size(187, 43)
         Me.LoginButton.TabIndex = 13
@@ -197,7 +197,7 @@ Partial Class Login
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.Minimize)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximumSize = New System.Drawing.Size(853, 591)
         Me.MinimumSize = New System.Drawing.Size(853, 591)
         Me.Name = "Login"

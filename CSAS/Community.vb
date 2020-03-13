@@ -128,4 +128,5 @@ Public Class Community
             MySqlConn.Dispose()
         End Try
     End Sub
+
 End Class

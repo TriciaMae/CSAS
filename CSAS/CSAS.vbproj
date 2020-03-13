@@ -75,15 +75,45 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ManageCommUsers.Designer.vb">
+      <DependentUpon>ManageCommUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCommUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSchoolUsers.Designer.vb">
+      <DependentUpon>ManageSchoolUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSchoolUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="UserHome.Designer.vb">
-      <DependentUpon>UserHome.vb</DependentUpon>
+    <Compile Include="SignUpComm.Designer.vb">
+      <DependentUpon>SignUpComm.vb</DependentUpon>
     </Compile>
-    <Compile Include="UserHome.vb">
+    <Compile Include="SignUpComm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUpSchool.Designer.vb">
+      <DependentUpon>SignUpSchool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpSchool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHomeComm.Designer.vb">
+      <DependentUpon>UserHomeComm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserHomeComm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHomeSchool.Designer.vb">
+      <DependentUpon>UserHomeSchool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserHomeSchool.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EditUser.Designer.vb">
@@ -171,8 +201,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="UserHome.resx">
-      <DependentUpon>UserHome.vb</DependentUpon>
+    <EmbeddedResource Include="ManageCommUsers.resx">
+      <DependentUpon>ManageCommUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSchoolUsers.resx">
+      <DependentUpon>ManageSchoolUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpComm.resx">
+      <DependentUpon>SignUpComm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpSchool.resx">
+      <DependentUpon>SignUpSchool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHomeComm.resx">
+      <DependentUpon>UserHomeComm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHomeSchool.resx">
+      <DependentUpon>UserHomeSchool.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditUser.resx">
       <DependentUpon>EditUser.vb</DependentUpon>

@@ -26,10 +26,10 @@ Partial Class AdminHome
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.SchoolButton = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.manageUsersBtn = New System.Windows.Forms.Button()
         Me.CommunityButton = New System.Windows.Forms.Button()
         Me.logoutBtn = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.suspendClassesBtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Minimize
@@ -98,19 +98,19 @@ Partial Class AdminHome
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Suspend Classes for:"
         '
-        'Button1
+        'manageUsersBtn
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(325, 86)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(251, 41)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "MANAGE USERS"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.manageUsersBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.manageUsersBtn.FlatAppearance.BorderSize = 0
+        Me.manageUsersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.manageUsersBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.manageUsersBtn.Location = New System.Drawing.Point(325, 85)
+        Me.manageUsersBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.manageUsersBtn.Name = "manageUsersBtn"
+        Me.manageUsersBtn.Size = New System.Drawing.Size(239, 46)
+        Me.manageUsersBtn.TabIndex = 11
+        Me.manageUsersBtn.Text = "MANAGE USERS"
+        Me.manageUsersBtn.UseVisualStyleBackColor = False
         '
         'CommunityButton
         '
@@ -132,7 +132,7 @@ Partial Class AdminHome
         Me.logoutBtn.FlatAppearance.BorderSize = 0
         Me.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logoutBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.logoutBtn.Location = New System.Drawing.Point(701, 86)
+        Me.logoutBtn.Location = New System.Drawing.Point(701, 85)
         Me.logoutBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.logoutBtn.Name = "logoutBtn"
         Me.logoutBtn.Size = New System.Drawing.Size(117, 46)
@@ -141,19 +141,19 @@ Partial Class AdminHome
         Me.logoutBtn.Text = "LOG OUT"
         Me.logoutBtn.UseVisualStyleBackColor = False
         '
-        'Button2
+        'suspendClassesBtn
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(41, 86)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(251, 44)
-        Me.Button2.TabIndex = 28
-        Me.Button2.Text = "SUSPEND CLASSES"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.suspendClassesBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.suspendClassesBtn.FlatAppearance.BorderSize = 0
+        Me.suspendClassesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.suspendClassesBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.suspendClassesBtn.Location = New System.Drawing.Point(44, 85)
+        Me.suspendClassesBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.suspendClassesBtn.Name = "suspendClassesBtn"
+        Me.suspendClassesBtn.Size = New System.Drawing.Size(239, 46)
+        Me.suspendClassesBtn.TabIndex = 28
+        Me.suspendClassesBtn.Text = "SUSPEND CLASSES"
+        Me.suspendClassesBtn.UseVisualStyleBackColor = False
         '
         'AdminHome
         '
@@ -162,9 +162,9 @@ Partial Class AdminHome
         Me.BackgroundImage = Global.CSAS.My.Resources.Resources.Home
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(853, 591)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.suspendClassesBtn)
         Me.Controls.Add(Me.logoutBtn)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.manageUsersBtn)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CommunityButton)
         Me.Controls.Add(Me.SchoolButton)
@@ -187,8 +187,8 @@ Partial Class AdminHome
     Friend WithEvents CloseButton As Button
     Friend WithEvents SchoolButton As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents manageUsersBtn As Button
     Friend WithEvents CommunityButton As Button
     Friend WithEvents logoutBtn As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents suspendClassesBtn As Button
 End Class

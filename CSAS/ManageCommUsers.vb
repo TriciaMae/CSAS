@@ -1,5 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class ManageUsers
+Public Class ManageCommUsers
     Dim MySqlConn As MySqlConnection
     Dim command As New MySqlCommand
     Private Sub LogOut_Click(sender As Object, e As EventArgs)
@@ -34,13 +34,13 @@ Public Class ManageUsers
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles suspendClassesBtn.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
         Me.Hide()
         Dim x As New AdminHome
         AdminHome.Show()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "server=localhost; userid=root; password=; database=csas"
         Dim sda As New MySqlDataAdapter
@@ -64,7 +64,7 @@ Public Class ManageUsers
         End Try
     End Sub
 
-    Private Sub SearchBox_TextChanged(sender As Object, e As EventArgs)
+    Private Sub SearchBox_TextChanged(sender As Object, e As EventArgs) Handles SearchBox.TextChanged
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "server=localhost; userid=root; password=; database=csas"
         Dim sda As New MySqlDataAdapter
@@ -89,11 +89,11 @@ Public Class ManageUsers
         End Try
     End Sub
 
-    Private Sub SearchBox_MouseClick(sender As Object, e As MouseEventArgs)
+    Private Sub SearchBox_MouseClick(sender As Object, e As MouseEventArgs) Handles SearchBox.MouseClick
         SearchBox.Clear()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim index As New Integer
         index = DataGridView1.CurrentCell.RowIndex
         DataGridView1.Rows.RemoveAt(index)
@@ -105,13 +105,9 @@ Public Class ManageUsers
         Dim bsource As New BindingSource
     End Sub
 
-    Private Sub schoolUsersButton_Click(sender As Object, e As EventArgs) Handles schoolUsersButton.Click
+    Private Sub manageUsersBtn_Click(sender As Object, e As EventArgs) Handles manageUsersBtn.Click
         Me.Hide()
-        ManageSchoolUsers.Show()
-    End Sub
-
-    Private Sub comUsersBtn_Click(sender As Object, e As EventArgs) Handles commUserBtn.Click
-        Me.Hide()
-        ManageCommUsers.Show()
+        Dim x As New ManageUsers
+        ManageUsers.Show()
     End Sub
 End Class

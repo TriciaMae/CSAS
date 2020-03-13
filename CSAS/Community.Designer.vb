@@ -28,11 +28,11 @@ Partial Class Community
         Me.SchoolLevel = New System.Windows.Forms.ComboBox()
         Me.LevelLabel = New System.Windows.Forms.Label()
         Me.ProvCombo = New System.Windows.Forms.ComboBox()
-        Me.ProvinceLabel = New System.Windows.Forms.Label()
+        Me.CityLabel = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CancellButton = New System.Windows.Forms.Button()
         Me.CityCombo = New System.Windows.Forms.ComboBox()
-        Me.CityLabel = New System.Windows.Forms.Label()
+        Me.ProvinceLabel = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.RegionCombo = New System.Windows.Forms.ComboBox()
         Me.DateTimeLabel = New System.Windows.Forms.Label()
@@ -102,7 +102,7 @@ Partial Class Community
         Me.SchoolLevel.Name = "SchoolLevel"
         Me.SchoolLevel.Size = New System.Drawing.Size(421, 32)
         Me.SchoolLevel.TabIndex = 40
-        Me.SchoolLevel.Text = "                              School Level"
+        Me.SchoolLevel.Text = " School Level"
         '
         'LevelLabel
         '
@@ -123,25 +123,25 @@ Partial Class Community
         Me.ProvCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ProvCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.ProvCombo.FormattingEnabled = True
-        Me.ProvCombo.Location = New System.Drawing.Point(117, 209)
+        Me.ProvCombo.Location = New System.Drawing.Point(299, 132)
         Me.ProvCombo.Margin = New System.Windows.Forms.Padding(4)
         Me.ProvCombo.Name = "ProvCombo"
-        Me.ProvCombo.Size = New System.Drawing.Size(421, 32)
+        Me.ProvCombo.Size = New System.Drawing.Size(239, 32)
         Me.ProvCombo.TabIndex = 38
-        Me.ProvCombo.Text = "                                 Province"
+        Me.ProvCombo.Text = " Province"
         '
-        'ProvinceLabel
+        'CityLabel
         '
-        Me.ProvinceLabel.AutoSize = True
-        Me.ProvinceLabel.BackColor = System.Drawing.Color.Transparent
-        Me.ProvinceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ProvinceLabel.ForeColor = System.Drawing.Color.Black
-        Me.ProvinceLabel.Location = New System.Drawing.Point(113, 175)
-        Me.ProvinceLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.ProvinceLabel.Name = "ProvinceLabel"
-        Me.ProvinceLabel.Size = New System.Drawing.Size(103, 26)
-        Me.ProvinceLabel.TabIndex = 37
-        Me.ProvinceLabel.Text = "Province:"
+        Me.CityLabel.AutoSize = True
+        Me.CityLabel.BackColor = System.Drawing.Color.Transparent
+        Me.CityLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CityLabel.ForeColor = System.Drawing.Color.Black
+        Me.CityLabel.Location = New System.Drawing.Point(113, 175)
+        Me.CityLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.CityLabel.Name = "CityLabel"
+        Me.CityLabel.Size = New System.Drawing.Size(56, 26)
+        Me.CityLabel.TabIndex = 37
+        Me.CityLabel.Text = "City:"
         '
         'Button1
         '
@@ -178,25 +178,25 @@ Partial Class Community
         Me.CityCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CityCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.CityCombo.FormattingEnabled = True
-        Me.CityCombo.Location = New System.Drawing.Point(301, 132)
+        Me.CityCombo.Location = New System.Drawing.Point(118, 207)
         Me.CityCombo.Margin = New System.Windows.Forms.Padding(4)
         Me.CityCombo.Name = "CityCombo"
-        Me.CityCombo.Size = New System.Drawing.Size(239, 32)
+        Me.CityCombo.Size = New System.Drawing.Size(420, 32)
         Me.CityCombo.TabIndex = 34
-        Me.CityCombo.Text = "                   City"
+        Me.CityCombo.Text = " City"
         '
-        'CityLabel
+        'ProvinceLabel
         '
-        Me.CityLabel.AutoSize = True
-        Me.CityLabel.BackColor = System.Drawing.Color.Transparent
-        Me.CityLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CityLabel.ForeColor = System.Drawing.Color.Black
-        Me.CityLabel.Location = New System.Drawing.Point(296, 98)
-        Me.CityLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.CityLabel.Name = "CityLabel"
-        Me.CityLabel.Size = New System.Drawing.Size(56, 26)
-        Me.CityLabel.TabIndex = 33
-        Me.CityLabel.Text = "City:"
+        Me.ProvinceLabel.AutoSize = True
+        Me.ProvinceLabel.BackColor = System.Drawing.Color.Transparent
+        Me.ProvinceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ProvinceLabel.ForeColor = System.Drawing.Color.Black
+        Me.ProvinceLabel.Location = New System.Drawing.Point(295, 98)
+        Me.ProvinceLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.ProvinceLabel.Name = "ProvinceLabel"
+        Me.ProvinceLabel.Size = New System.Drawing.Size(103, 26)
+        Me.ProvinceLabel.TabIndex = 33
+        Me.ProvinceLabel.Text = "Province:"
         '
         'DateTimePicker1
         '
@@ -221,7 +221,7 @@ Partial Class Community
         Me.RegionCombo.Name = "RegionCombo"
         Me.RegionCombo.Size = New System.Drawing.Size(137, 32)
         Me.RegionCombo.TabIndex = 31
-        Me.RegionCombo.Text = "     Region"
+        Me.RegionCombo.Text = " Region"
         '
         'DateTimeLabel
         '
@@ -259,11 +259,11 @@ Partial Class Community
         Me.Controls.Add(Me.SchoolLevel)
         Me.Controls.Add(Me.LevelLabel)
         Me.Controls.Add(Me.ProvCombo)
-        Me.Controls.Add(Me.ProvinceLabel)
+        Me.Controls.Add(Me.CityLabel)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CancellButton)
         Me.Controls.Add(Me.CityCombo)
-        Me.Controls.Add(Me.CityLabel)
+        Me.Controls.Add(Me.ProvinceLabel)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.RegionCombo)
         Me.Controls.Add(Me.DateTimeLabel)
@@ -289,11 +289,11 @@ Partial Class Community
     Friend WithEvents SchoolLevel As ComboBox
     Friend WithEvents LevelLabel As Label
     Friend WithEvents ProvCombo As ComboBox
-    Friend WithEvents ProvinceLabel As Label
+    Friend WithEvents CityLabel As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents CancellButton As Button
     Friend WithEvents CityCombo As ComboBox
-    Friend WithEvents CityLabel As Label
+    Friend WithEvents ProvinceLabel As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents RegionCombo As ComboBox
     Friend WithEvents DateTimeLabel As Label
