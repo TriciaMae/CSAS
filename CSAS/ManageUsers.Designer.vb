@@ -30,7 +30,7 @@ Partial Class ManageUsers
         Me.Button9 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.AddUser = New System.Windows.Forms.Button()
+        Me.EditUser = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -150,19 +150,19 @@ Partial Class ManageUsers
         Me.Button1.Text = "LOAD"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'AddUser
+        'EditUser
         '
-        Me.AddUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer))
-        Me.AddUser.FlatAppearance.BorderSize = 0
-        Me.AddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AddUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AddUser.Location = New System.Drawing.Point(74, 127)
-        Me.AddUser.Margin = New System.Windows.Forms.Padding(2)
-        Me.AddUser.Name = "AddUser"
-        Me.AddUser.Size = New System.Drawing.Size(135, 35)
-        Me.AddUser.TabIndex = 12
-        Me.AddUser.Text = "ADD USER"
-        Me.AddUser.UseVisualStyleBackColor = False
+        Me.EditUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.EditUser.FlatAppearance.BorderSize = 0
+        Me.EditUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.EditUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EditUser.Location = New System.Drawing.Point(74, 127)
+        Me.EditUser.Margin = New System.Windows.Forms.Padding(2)
+        Me.EditUser.Name = "EditUser"
+        Me.EditUser.Size = New System.Drawing.Size(135, 35)
+        Me.EditUser.TabIndex = 12
+        Me.EditUser.Text = "EDIT USER"
+        Me.EditUser.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -191,7 +191,7 @@ Partial Class ManageUsers
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.SearchBox)
-        Me.Controls.Add(Me.AddUser)
+        Me.Controls.Add(Me.EditUser)
         Me.Controls.Add(Me.LogOut)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Minimize)
@@ -217,6 +217,6 @@ Partial Class ManageUsers
     Friend WithEvents Button9 As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button1 As Button
-    Friend WithEvents AddUser As Button
+    Friend WithEvents EditUser As Button
     Friend WithEvents Button2 As Button
 End Class

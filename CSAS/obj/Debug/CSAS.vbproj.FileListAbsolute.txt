@@ -213,3 +213,4 @@ C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.vbproj.CopyCompl
 C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.exe
 C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.xml
 C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.pdb
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.UserHome.resources

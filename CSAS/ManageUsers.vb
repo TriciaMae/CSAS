@@ -20,14 +20,10 @@ Public Class ManageUsers
         EditUser.Show()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub AddUser_Click(sender As Object, e As EventArgs) Handles AddUser.Click
+    Private Sub AddUser_Click(sender As Object, e As EventArgs) Handles EditUser.Click
         Me.Hide()
         Dim x As New AddUser
-        AddUser.Show()
+        x.Show()
     End Sub
 
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
