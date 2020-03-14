@@ -12,7 +12,7 @@ Public Class Community
 
             Dim command As New MySqlCommand
             Dim reader As MySqlDataReader
-            Dim api As String = "TR-TIMOT111349_YEP84"
+            Dim api As String = "TR-TESTC812033_T7UVR"
             Dim region As String = RegionCombo.Text
             Dim city As String = CityCombo.Text
             Dim prov As String = ProvCombo.Text
