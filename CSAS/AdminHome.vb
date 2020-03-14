@@ -14,6 +14,7 @@
     Private Sub SchoolButton_Click(sender As Object, e As EventArgs) Handles SchoolButton.Click
         Me.Hide()
         School.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub CommunityButton_Click(sender As Object, e As EventArgs) Handles CommunityButton.Click

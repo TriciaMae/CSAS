@@ -34,7 +34,7 @@ Public Class UserHomeComm
             MySqlConn.Open()
 
             'query to get all values in send table
-            Dim Query As String = "select * from csas.comm where id=2"
+            Dim Query As String = "select * from csas.comm where id=4"
 
             'transfer query to mysql command 'command'
             command = New MySqlCommand(Query, MySqlConn)
@@ -45,6 +45,8 @@ Public Class UserHomeComm
             'populating textbox with the database values of selected table
             While reader.Read
                 'connecting the data to the textbox
+                FNtext.Text = reader("fname")
+                LNtext.Text = reader("lname")
                 NumText.Text = reader("cp")
                 regionText.Text = reader("region")
                 provinceText.Text = reader("province")
@@ -70,9 +72,9 @@ Public Class UserHomeComm
         Dim command As New MySqlCommand
         Try
             MySqlConn.Open()
-            Dim query As String = "update csas.comm set region='" & regionText.Text & "', 
-            city='" & cityText.Text & "', province='" & provinceText.Text & "', 
-            cp ='" & NumText.Text & "' where id=2"
+            Dim query As String = "update csas.comm set fname = '" & FNtext.Text & "', lname = '" & LNtext.Text & "',
+            region='" & regionText.Text & "', city='" & cityText.Text & "', province='" & provinceText.Text & "', 
+            cp ='" & NumText.Text & "' where id=4"
             command = New MySqlCommand(query, MySqlConn)
             reader = command.ExecuteReader
 

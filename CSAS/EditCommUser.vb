@@ -9,9 +9,10 @@ Public Class EditCommUser
         Dim command As New MySqlCommand
         Try
             MySqlConn.Open()
-            Dim query As String = "update csas.comm set region='" & RegTxt.Text & "', 
-            city='" & CityTxt.Text & "', province='" & ProvTxt.Text & "', 
-            cp ='" & NumText.Text & "' where id='" & FNtext.Text & "'"
+            Dim query As String = "update csas.comm set fname = '" & FNtext.Text & "', lname = '" & LNtext.Text & "',
+            region='" & RegTxt.Text & "', city='" & CityTxt.Text & "', province='" & ProvTxt.Text & "', 
+            cp ='" & NumText.Text & "', uname = '" & UNtext.Text & "', pass = '" & Newp.Text & "'  
+            where lname ='" & LNtext.Text & "'"
             command = New MySqlCommand(query, MySqlConn)
             reader = command.ExecuteReader
 
@@ -30,11 +31,13 @@ Public Class EditCommUser
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
         ManageCommUsers.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
         Me.Close()
         ManageCommUsers.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub Minimize_Click(sender As Object, e As EventArgs) Handles Minimize.Click

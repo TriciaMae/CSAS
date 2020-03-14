@@ -9,8 +9,9 @@ Public Class EditSchoolUser
         Dim command As New MySqlCommand
         Try
             MySqlConn.Open()
-            Dim query As String = "update csas.send set school='" & SklTxt.Text & "', 
-                lvl='" & lvlTxt.Text & "', cp_num='" & CpTxt.Text & "' where id='" & FNtext.Text & "'"
+            Dim query As String = "update csas.send set fname = '" & FNtext.Text & "', lname = '" & LNtext.Text & "',
+                school='" & SklTxt.Text & "', lvl='" & lvlTxt.Text & "', cp_num='" & CpTxt.Text & "',
+                uname = '" & UNtext.Text & "', pass = '" & Newp.Text & "' where lname = '" & LNtext.Text & "'"
             command = New MySqlCommand(query, MySqlConn)
             reader = command.ExecuteReader
 
@@ -29,13 +30,16 @@ Public Class EditSchoolUser
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
         Me.Close()
         ManageSchoolUsers.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
         ManageSchoolUsers.Show()
+        Me.Dispose()
     End Sub
     Private Sub Minimize_Click(sender As Object, e As EventArgs) Handles Minimize.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
+
 End Class

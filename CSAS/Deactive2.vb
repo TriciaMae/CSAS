@@ -19,7 +19,7 @@ Public Class Deactive2
         Dim command As New MySqlCommand
         Try
             MySqlConn.Open()
-            Dim query As String = "Delete from csas.send where id = 1"
+            Dim query As String = "Delete from csas.send where id = 3"
             command = New MySqlCommand(query, MySqlConn)
             reader = command.ExecuteReader
 

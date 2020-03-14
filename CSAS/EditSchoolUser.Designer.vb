@@ -22,6 +22,7 @@ Partial Class EditSchoolUser
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(EditSchoolUser))
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.Newp = New System.Windows.Forms.TextBox()
@@ -212,6 +213,7 @@ Partial Class EditSchoolUser
         Me.Controls.Add(Me.Minimize)
         Me.Controls.Add(Me.CloseButton)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(490, 418)
         Me.MinimumSize = New System.Drawing.Size(490, 418)
         Me.Name = "EditSchoolUser"

@@ -32,7 +32,7 @@ Public Class School
                 'Using client As New Net.WebClient
                 System.Threading.Thread.Sleep(2000)
                 'query for getting the data selected in the combobox
-                Dim Query As String = "select cp_num from csas.school_info where school_id = '" & SklCombo.Text & "'and lvl_id = '" & sklLvlCombo.Text & "'"
+                Dim Query As String = "select cp_num from csas.send where school = '" & SklCombo.Text & "'and lvl = '" & sklLvlCombo.Text & "'"
                 'transfer query to mysql command 'command'
                 command = New MySqlCommand(Query, MySqlConn)
 
@@ -96,7 +96,7 @@ Public Class School
             MySqlConn.Open()
 
             'query to get all values in send table
-            Dim Query As String = "select * from csas.school_info"
+            Dim Query As String = "select * from csas.send"
 
             'transfer query to mysql command 'command'
             command = New MySqlCommand(Query, MySqlConn)
@@ -107,8 +107,8 @@ Public Class School
             'populating combobox with the database values of selected table
             While reader.Read
                 'connecting the data in the school column to the combobox
-                Dim skl = reader.GetString("school_id")
-                Dim ide = reader.GetString("lvl_id")
+                Dim skl = reader.GetString("school")
+                Dim ide = reader.GetString("lvl")
                 SklCombo.Items.Add(skl)
                 sklLvlCombo.Items.Add(ide)
             End While

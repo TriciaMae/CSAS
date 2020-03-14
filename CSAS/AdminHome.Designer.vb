@@ -22,6 +22,7 @@ Partial Class AdminHome
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminHome))
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.SchoolButton = New System.Windows.Forms.Button()
@@ -76,7 +77,7 @@ Partial Class AdminHome
         Me.SchoolButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SchoolButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SchoolButton.Location = New System.Drawing.Point(154, 213)
-        Me.SchoolButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SchoolButton.Margin = New System.Windows.Forms.Padding(2)
         Me.SchoolButton.Name = "SchoolButton"
         Me.SchoolButton.Size = New System.Drawing.Size(128, 138)
         Me.SchoolButton.TabIndex = 8
@@ -102,7 +103,7 @@ Partial Class AdminHome
         Me.manageUsersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.manageUsersBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.manageUsersBtn.Location = New System.Drawing.Point(244, 69)
-        Me.manageUsersBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.manageUsersBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.manageUsersBtn.Name = "manageUsersBtn"
         Me.manageUsersBtn.Size = New System.Drawing.Size(179, 37)
         Me.manageUsersBtn.TabIndex = 11
@@ -116,7 +117,7 @@ Partial Class AdminHome
         Me.CommunityButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CommunityButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CommunityButton.Location = New System.Drawing.Point(365, 213)
-        Me.CommunityButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CommunityButton.Margin = New System.Windows.Forms.Padding(2)
         Me.CommunityButton.Name = "CommunityButton"
         Me.CommunityButton.Size = New System.Drawing.Size(128, 138)
         Me.CommunityButton.TabIndex = 9
@@ -130,7 +131,7 @@ Partial Class AdminHome
         Me.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logoutBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logoutBtn.Location = New System.Drawing.Point(526, 69)
-        Me.logoutBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.logoutBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.logoutBtn.Name = "logoutBtn"
         Me.logoutBtn.Size = New System.Drawing.Size(88, 37)
         Me.logoutBtn.TabIndex = 27
@@ -167,6 +168,7 @@ Partial Class AdminHome
         Me.Controls.Add(Me.CloseButton)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(640, 480)
         Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "AdminHome"

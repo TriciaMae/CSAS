@@ -22,6 +22,7 @@ Partial Class UserHomeSchool
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserHomeSchool))
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.logoutBtn = New System.Windows.Forms.Button()
@@ -81,7 +82,7 @@ Partial Class UserHomeSchool
         Me.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logoutBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logoutBtn.Location = New System.Drawing.Point(526, 69)
-        Me.logoutBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.logoutBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.logoutBtn.Name = "logoutBtn"
         Me.logoutBtn.Size = New System.Drawing.Size(88, 37)
         Me.logoutBtn.TabIndex = 26
@@ -175,7 +176,7 @@ Partial Class UserHomeSchool
         Me.updBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.updBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
         Me.updBtn.Location = New System.Drawing.Point(444, 322)
-        Me.updBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.updBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.updBtn.Name = "updBtn"
         Me.updBtn.Size = New System.Drawing.Size(128, 47)
         Me.updBtn.TabIndex = 37
@@ -191,7 +192,7 @@ Partial Class UserHomeSchool
         Me.deactButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.deactButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
         Me.deactButton.Location = New System.Drawing.Point(316, 322)
-        Me.deactButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.deactButton.Margin = New System.Windows.Forms.Padding(2)
         Me.deactButton.Name = "deactButton"
         Me.deactButton.Size = New System.Drawing.Size(128, 47)
         Me.deactButton.TabIndex = 36
@@ -231,6 +232,7 @@ Partial Class UserHomeSchool
         Me.Controls.Add(Me.CloseButton)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(640, 480)
         Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "UserHomeSchool"

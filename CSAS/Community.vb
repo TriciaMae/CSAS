@@ -29,7 +29,7 @@ Public Class Community
                 'Using client As New Net.WebClient
                 System.Threading.Thread.Sleep(2000)
                 'query for getting the data selected in the combobox
-                Dim Query As String = "select cp from csas.comm where region = '" & RegionCombo.Text & "' and city = '" & CityCombo.Text & "' or province = '" & ProvCombo.Text & "' and lvl = '" & SchoolLevel.Text & "'     "
+                Dim Query As String = "select cp from csas.comm where region = '" & RegionCombo.Text & "' and city = '" & CityCombo.Text & "' or province = '" & ProvCombo.Text & "' and lvl = '" & SchoolLevel.Text & "'"
                 'transfer query to mysql command 'command'
                 command = New MySqlCommand(Query, MySqlConn)
 

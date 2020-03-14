@@ -22,6 +22,7 @@ Partial Class Deactive2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Deactive2))
         Me.yesBtn = New System.Windows.Forms.Button()
         Me.noBtn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -124,7 +125,7 @@ Partial Class Deactive2
         Me.CloseButton.TabIndex = 39
         Me.CloseButton.UseVisualStyleBackColor = False
         '
-        'Deactivate
+        'Deactive2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -138,9 +139,10 @@ Partial Class Deactive2
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.youSure)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(340, 219)
         Me.MinimumSize = New System.Drawing.Size(340, 219)
-        Me.Name = "Deactivate"
+        Me.Name = "Deactive2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Deactivate"
         Me.ResumeLayout(False)

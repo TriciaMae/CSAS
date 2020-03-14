@@ -22,6 +22,7 @@ Partial Class Deactive
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Deactive))
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.youSure = New System.Windows.Forms.Label()
@@ -138,6 +139,7 @@ Partial Class Deactive
         Me.Controls.Add(Me.Minimize)
         Me.Controls.Add(Me.CloseButton)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(340, 219)
         Me.MinimumSize = New System.Drawing.Size(340, 219)
         Me.Name = "Deactive"

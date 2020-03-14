@@ -4,26 +4,26 @@ Public Class ManageCommUsers
     Dim command As New MySqlCommand
     Private Sub LogOut_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New Login
         Login.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub SuspendLabel_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New AdminHome
         AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub EditButton_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New EditCommUser
         EditBtn.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub AddUser_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New EditSchoolUser
-        x.Show()
+        EditCommUser.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
@@ -38,8 +38,8 @@ Public Class ManageCommUsers
 
     Private Sub Button9_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New AdminHome
         AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles LoadBtn.Click
@@ -76,7 +76,7 @@ Public Class ManageCommUsers
         Try
             MySqlConn.Open()
             Dim query As String = "select * from csas.comm where id = @search or cp = @search
-            or  region = @search or city = @search or province = @search"
+            or  region = @search or city = @search or province = @search or fname = @search or lname = @search"
             command = New MySqlCommand(query, MySqlConn)
             command.Parameters.Add("@search", MySqlDbType.VarChar).Value = SearchBox.Text
             sda.SelectCommand = command

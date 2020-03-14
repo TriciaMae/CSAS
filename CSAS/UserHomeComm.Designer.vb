@@ -22,6 +22,7 @@ Partial Class UserHomeComm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserHomeComm))
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.logoutBtn = New System.Windows.Forms.Button()
@@ -246,6 +247,7 @@ Partial Class UserHomeComm
         Me.Controls.Add(Me.CloseButton)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(640, 480)
         Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "UserHomeComm"

@@ -22,9 +22,10 @@ Partial Class EditCommUser
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(EditCommUser))
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
-        Me.PasswordText = New System.Windows.Forms.TextBox()
+        Me.Newp = New System.Windows.Forms.TextBox()
         Me.UNtext = New System.Windows.Forms.TextBox()
         Me.NumText = New System.Windows.Forms.TextBox()
         Me.LNtext = New System.Windows.Forms.TextBox()
@@ -73,18 +74,18 @@ Partial Class EditCommUser
         Me.CloseButton.TabIndex = 4
         Me.CloseButton.UseVisualStyleBackColor = False
         '
-        'PasswordText
+        'Newp
         '
-        Me.PasswordText.BackColor = System.Drawing.Color.White
-        Me.PasswordText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PasswordText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PasswordText.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.PasswordText.Location = New System.Drawing.Point(92, 232)
-        Me.PasswordText.Name = "PasswordText"
-        Me.PasswordText.Size = New System.Drawing.Size(304, 26)
-        Me.PasswordText.TabIndex = 28
-        Me.PasswordText.Text = "New Password"
-        Me.PasswordText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Newp.BackColor = System.Drawing.Color.White
+        Me.Newp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Newp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Newp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.Newp.Location = New System.Drawing.Point(92, 232)
+        Me.Newp.Name = "Newp"
+        Me.Newp.Size = New System.Drawing.Size(304, 26)
+        Me.Newp.TabIndex = 28
+        Me.Newp.Text = "New Password"
+        Me.Newp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'UNtext
         '
@@ -213,7 +214,7 @@ Partial Class EditCommUser
         Me.Controls.Add(Me.RegTxt)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.SaveButton)
-        Me.Controls.Add(Me.PasswordText)
+        Me.Controls.Add(Me.Newp)
         Me.Controls.Add(Me.UNtext)
         Me.Controls.Add(Me.NumText)
         Me.Controls.Add(Me.LNtext)
@@ -221,6 +222,7 @@ Partial Class EditCommUser
         Me.Controls.Add(Me.Minimize)
         Me.Controls.Add(Me.CloseButton)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(490, 418)
         Me.MinimumSize = New System.Drawing.Size(490, 418)
         Me.Name = "EditCommUser"
@@ -233,7 +235,7 @@ Partial Class EditCommUser
 
     Friend WithEvents Minimize As Button
     Friend WithEvents CloseButton As Button
-    Friend WithEvents PasswordText As TextBox
+    Friend WithEvents Newp As TextBox
     Friend WithEvents UNtext As TextBox
     Friend WithEvents NumText As TextBox
     Friend WithEvents LNtext As TextBox

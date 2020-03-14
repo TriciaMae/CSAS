@@ -12,8 +12,8 @@ Public Class UserHomeSchool
 
     Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutBtn.Click
         Me.Hide()
-        Dim x As New Login
         Login.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub UserHomeSchool_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -28,7 +28,7 @@ Public Class UserHomeSchool
             MySqlConn.Open()
 
             'query to get all values in send table
-            Dim Query As String = "select * from csas.send where id=1"
+            Dim Query As String = "select * from csas.send where id=3"
 
             'transfer query to mysql command 'command'
             command = New MySqlCommand(Query, MySqlConn)
@@ -39,6 +39,8 @@ Public Class UserHomeSchool
             'populating textbox with the database values of selected table
             While reader.Read
                 'connecting the data to the textbox
+                FNtext.Text = reader("fname")
+                LNtext.Text = reader("lname")
                 NumText.Text = reader("cp_num")
                 SklText.Text = reader("school")
                 LvlText.Text = reader("lvl")
@@ -64,7 +66,7 @@ Public Class UserHomeSchool
         Try
             MySqlConn.Open()
             Dim query As String = "update csas.send set cp_num='" & NumText.Text & "', 
-            school='" & SklText.Text & "', lvl='" & LvlText.Text & "' where id=1"
+            school='" & SklText.Text & "', lvl='" & LvlText.Text & "' where id=3"
             command = New MySqlCommand(query, MySqlConn)
             reader = command.ExecuteReader
 

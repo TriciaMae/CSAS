@@ -4,19 +4,20 @@ Public Class ManageSchoolUsers
     Dim command As New MySqlCommand
     Private Sub LogOut_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New Login
         Login.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub SuspendLabel_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New AdminHome
         AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub EditButton_Click(sender As Object, e As EventArgs)
         Me.Hide()
         EditBtn.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub AddUser_Click(sender As Object, e As EventArgs) Handles EditBtn.Click
@@ -37,8 +38,8 @@ Public Class ManageSchoolUsers
 
     Private Sub Button9_Click(sender As Object, e As EventArgs)
         Me.Hide()
-        Dim x As New AdminHome
         AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles LoadBtn.Click
@@ -75,7 +76,7 @@ Public Class ManageSchoolUsers
         Try
             MySqlConn.Open()
             Dim query As String = "select * from csas.send where cp_num = @search or id = @search
-                or school = @search or lvl = @search"
+                or school = @search or lvl = @search or fname = @search or lname = @search"
             command = New MySqlCommand(query, MySqlConn)
             command.Parameters.Add("@search", MySqlDbType.VarChar).Value = SearchBox.Text
             sda.SelectCommand = command
