@@ -16,7 +16,7 @@ Public Class School
 
             Dim command As New MySqlCommand
             Dim reader As MySqlDataReader
-            Dim api As String = "TR-SUSPE578044_MST6F"
+            Dim api As String = "TR-TIMOT111349_YEP84"
             Dim school As String = SklCombo.Text
             Dim lvl As String = sklLvlCombo.Text
             Dim dat As String = DateTimePicker1.Text
