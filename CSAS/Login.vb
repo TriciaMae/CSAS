@@ -27,9 +27,7 @@ Public Class Login
 
         If table.Rows.Count() <= 0 Then
             MessageBox.Show("Username or Password is Invalid!")
-        ElseIf (TextUser.Text = "" Or TextUser.Text = "") Then
-            MessageBox.Show("Please enter username or password!")
-        ElseIf (TextUser.Text = "tricia" Or TextUser.Text = "samboy") Then
+        ElseIf (TextUser.Text = "admin" Or TextUser.Text = "samboy") Then
             Me.Hide()
             AdminHome.Show()
         ElseIf (TextUser.Text = "timot" And TextPass.Text = "timot") Then

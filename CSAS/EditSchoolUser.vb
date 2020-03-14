@@ -16,10 +16,13 @@ Public Class EditSchoolUser
 
             MessageBox.Show("Data Updated!")
             MySqlConn.Close()
+            Me.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         Finally
             MySqlConn.Dispose()
+            ManageSchoolUsers.Show()
+            Me.Dispose()
         End Try
     End Sub
 

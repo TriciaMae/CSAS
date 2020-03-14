@@ -17,10 +17,13 @@ Public Class EditCommUser
 
             MessageBox.Show("Data Updated!")
             MySqlConn.Close()
+            Me.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         Finally
             MySqlConn.Dispose()
+            ManageCommUsers.Show()
+            Me.Dispose()
         End Try
     End Sub
 
