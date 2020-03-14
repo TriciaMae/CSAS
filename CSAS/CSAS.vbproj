@@ -75,6 +75,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deactive2.Designer.vb">
+      <DependentUpon>Deactive2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deactive2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ManageCommUsers.Designer.vb">
       <DependentUpon>ManageCommUsers.vb</DependentUpon>
     </Compile>
@@ -116,10 +122,10 @@
     <Compile Include="UserHomeSchool.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditUser.Designer.vb">
-      <DependentUpon>EditUser.vb</DependentUpon>
+    <Compile Include="EditCommUser.Designer.vb">
+      <DependentUpon>EditCommUser.vb</DependentUpon>
     </Compile>
-    <Compile Include="EditUser.vb">
+    <Compile Include="EditCommUser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminHome.Designer.vb">
@@ -128,16 +134,16 @@
     <Compile Include="AdminHome.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddUser.Designer.vb">
-      <DependentUpon>AddUser.vb</DependentUpon>
+    <Compile Include="EditSchoolUser.Designer.vb">
+      <DependentUpon>EditSchoolUser.vb</DependentUpon>
     </Compile>
-    <Compile Include="AddUser.vb">
+    <Compile Include="EditSchoolUser.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deactivate.Designer.vb">
-      <DependentUpon>Deactivate.vb</DependentUpon>
+    <Compile Include="Deactive.Designer.vb">
+      <DependentUpon>Deactive.vb</DependentUpon>
     </Compile>
-    <Compile Include="Deactivate.vb">
+    <Compile Include="Deactive.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PopUpTemplate.Designer.vb">
@@ -201,6 +207,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Deactive2.resx">
+      <DependentUpon>Deactive2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageCommUsers.resx">
       <DependentUpon>ManageCommUsers.vb</DependentUpon>
     </EmbeddedResource>
@@ -219,17 +228,17 @@
     <EmbeddedResource Include="UserHomeSchool.resx">
       <DependentUpon>UserHomeSchool.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditUser.resx">
-      <DependentUpon>EditUser.vb</DependentUpon>
+    <EmbeddedResource Include="EditCommUser.resx">
+      <DependentUpon>EditCommUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminHome.resx">
       <DependentUpon>AdminHome.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddUser.resx">
-      <DependentUpon>AddUser.vb</DependentUpon>
+    <EmbeddedResource Include="EditSchoolUser.resx">
+      <DependentUpon>EditSchoolUser.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deactivate.resx">
-      <DependentUpon>Deactivate.vb</DependentUpon>
+    <EmbeddedResource Include="Deactive.resx">
+      <DependentUpon>Deactive.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PopUpTemplate.resx">
       <DependentUpon>PopUpTemplate.vb</DependentUpon>

@@ -2,8 +2,8 @@
 Public Class School
     Private Sub CancellButton_Click(sender As Object, e As EventArgs) Handles CancellButton.Click
         Me.Hide()
-        Dim x As New AdminHome
         AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Function GrpTxt()
@@ -79,7 +79,9 @@ Public Class School
     End Sub
 
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
-        Me.Close()
+        Me.Hide()
+        AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub School_Load(sender As Object, e As EventArgs) Handles MyBase.Load

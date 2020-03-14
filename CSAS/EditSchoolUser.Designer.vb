@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class AddUser
+Partial Class EditSchoolUser
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -33,9 +33,6 @@ Partial Class AddUser
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SklTxt = New System.Windows.Forms.TextBox()
         Me.lvlTxt = New System.Windows.Forms.TextBox()
-        Me.RegTxt = New System.Windows.Forms.TextBox()
-        Me.ProvTxt = New System.Windows.Forms.TextBox()
-        Me.CityTxt = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Minimize
@@ -81,7 +78,7 @@ Partial Class AddUser
         Me.Newp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Newp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Newp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Newp.Location = New System.Drawing.Point(93, 283)
+        Me.Newp.Location = New System.Drawing.Point(93, 279)
         Me.Newp.Name = "Newp"
         Me.Newp.Size = New System.Drawing.Size(304, 26)
         Me.Newp.TabIndex = 28
@@ -94,7 +91,7 @@ Partial Class AddUser
         Me.UNtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.UNtext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UNtext.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.UNtext.Location = New System.Drawing.Point(93, 246)
+        Me.UNtext.Location = New System.Drawing.Point(93, 233)
         Me.UNtext.Name = "UNtext"
         Me.UNtext.Size = New System.Drawing.Size(304, 26)
         Me.UNtext.TabIndex = 23
@@ -176,7 +173,7 @@ Partial Class AddUser
         Me.SklTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SklTxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SklTxt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.SklTxt.Location = New System.Drawing.Point(94, 174)
+        Me.SklTxt.Location = New System.Drawing.Point(92, 144)
         Me.SklTxt.Name = "SklTxt"
         Me.SklTxt.Size = New System.Drawing.Size(304, 26)
         Me.SklTxt.TabIndex = 33
@@ -189,56 +186,20 @@ Partial Class AddUser
         Me.lvlTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lvlTxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lvlTxt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.lvlTxt.Location = New System.Drawing.Point(94, 211)
+        Me.lvlTxt.Location = New System.Drawing.Point(92, 189)
         Me.lvlTxt.Name = "lvlTxt"
         Me.lvlTxt.Size = New System.Drawing.Size(304, 26)
         Me.lvlTxt.TabIndex = 34
         Me.lvlTxt.Text = "School Level"
         Me.lvlTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'RegTxt
-        '
-        Me.RegTxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
-        Me.RegTxt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.RegTxt.Location = New System.Drawing.Point(93, 136)
-        Me.RegTxt.Name = "RegTxt"
-        Me.RegTxt.Size = New System.Drawing.Size(100, 24)
-        Me.RegTxt.TabIndex = 35
-        Me.RegTxt.Text = "Region"
-        Me.RegTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'ProvTxt
-        '
-        Me.ProvTxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
-        Me.ProvTxt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.ProvTxt.Location = New System.Drawing.Point(199, 136)
-        Me.ProvTxt.Name = "ProvTxt"
-        Me.ProvTxt.Size = New System.Drawing.Size(100, 24)
-        Me.ProvTxt.TabIndex = 36
-        Me.ProvTxt.Text = "Province"
-        Me.ProvTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'CityTxt
-        '
-        Me.CityTxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
-        Me.CityTxt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.CityTxt.Location = New System.Drawing.Point(305, 136)
-        Me.CityTxt.Name = "CityTxt"
-        Me.CityTxt.Size = New System.Drawing.Size(92, 24)
-        Me.CityTxt.TabIndex = 37
-        Me.CityTxt.Text = "City"
-        Me.CityTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'AddUser
+        'EditSchoolUser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.CSAS.My.Resources.Resources.PopUp1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(490, 418)
-        Me.Controls.Add(Me.CityTxt)
-        Me.Controls.Add(Me.ProvTxt)
-        Me.Controls.Add(Me.RegTxt)
         Me.Controls.Add(Me.lvlTxt)
         Me.Controls.Add(Me.SklTxt)
         Me.Controls.Add(Me.Button1)
@@ -253,7 +214,7 @@ Partial Class AddUser
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximumSize = New System.Drawing.Size(490, 418)
         Me.MinimumSize = New System.Drawing.Size(490, 418)
-        Me.Name = "AddUser"
+        Me.Name = "EditSchoolUser"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "AddUser"
         Me.ResumeLayout(False)
@@ -272,7 +233,4 @@ Partial Class AddUser
     Friend WithEvents Button1 As Button
     Friend WithEvents SklTxt As TextBox
     Friend WithEvents lvlTxt As TextBox
-    Friend WithEvents RegTxt As TextBox
-    Friend WithEvents ProvTxt As TextBox
-    Friend WithEvents CityTxt As TextBox
 End Class

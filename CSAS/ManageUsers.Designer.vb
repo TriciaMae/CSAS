@@ -28,8 +28,8 @@ Partial Class ManageUsers
         Me.schoolUsersButton = New System.Windows.Forms.Button()
         Me.commUserBtn = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.manageUsersBtn = New System.Windows.Forms.Button()
         Me.logoutBtn = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Minimize
@@ -43,12 +43,11 @@ Partial Class ManageUsers
         Me.Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
-        Me.Minimize.Location = New System.Drawing.Point(769, 7)
-        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
-        Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
-        Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
+        Me.Minimize.Location = New System.Drawing.Point(577, 6)
+        Me.Minimize.MaximumSize = New System.Drawing.Size(20, 20)
+        Me.Minimize.MinimumSize = New System.Drawing.Size(20, 20)
         Me.Minimize.Name = "Minimize"
-        Me.Minimize.Size = New System.Drawing.Size(27, 25)
+        Me.Minimize.Size = New System.Drawing.Size(20, 20)
         Me.Minimize.TabIndex = 3
         Me.Minimize.UseVisualStyleBackColor = False
         '
@@ -62,12 +61,11 @@ Partial Class ManageUsers
         Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CloseButton.Location = New System.Drawing.Point(819, 7)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
-        Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
-        Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
+        Me.CloseButton.Location = New System.Drawing.Point(614, 6)
+        Me.CloseButton.MaximumSize = New System.Drawing.Size(20, 20)
+        Me.CloseButton.MinimumSize = New System.Drawing.Size(20, 20)
         Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.Size = New System.Drawing.Size(27, 25)
+        Me.CloseButton.Size = New System.Drawing.Size(20, 20)
         Me.CloseButton.TabIndex = 2
         Me.CloseButton.UseVisualStyleBackColor = False
         '
@@ -77,10 +75,10 @@ Partial Class ManageUsers
         Me.suspendClassesBtn.FlatAppearance.BorderSize = 0
         Me.suspendClassesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.suspendClassesBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.suspendClassesBtn.Location = New System.Drawing.Point(44, 85)
-        Me.suspendClassesBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.suspendClassesBtn.Location = New System.Drawing.Point(33, 69)
+        Me.suspendClassesBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.suspendClassesBtn.Name = "suspendClassesBtn"
-        Me.suspendClassesBtn.Size = New System.Drawing.Size(239, 46)
+        Me.suspendClassesBtn.Size = New System.Drawing.Size(179, 37)
         Me.suspendClassesBtn.TabIndex = 24
         Me.suspendClassesBtn.TabStop = False
         Me.suspendClassesBtn.Text = "SUSPEND CLASSES"
@@ -92,10 +90,10 @@ Partial Class ManageUsers
         Me.schoolUsersButton.FlatAppearance.BorderSize = 0
         Me.schoolUsersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.schoolUsersButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.schoolUsersButton.Location = New System.Drawing.Point(205, 262)
-        Me.schoolUsersButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.schoolUsersButton.Location = New System.Drawing.Point(154, 213)
+        Me.schoolUsersButton.Margin = New System.Windows.Forms.Padding(2)
         Me.schoolUsersButton.Name = "schoolUsersButton"
-        Me.schoolUsersButton.Size = New System.Drawing.Size(171, 170)
+        Me.schoolUsersButton.Size = New System.Drawing.Size(128, 138)
         Me.schoolUsersButton.TabIndex = 25
         Me.schoolUsersButton.Text = "SCHOOL SUSPENSION"
         Me.schoolUsersButton.UseVisualStyleBackColor = False
@@ -106,10 +104,10 @@ Partial Class ManageUsers
         Me.commUserBtn.FlatAppearance.BorderSize = 0
         Me.commUserBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.commUserBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.commUserBtn.Location = New System.Drawing.Point(487, 262)
-        Me.commUserBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.commUserBtn.Location = New System.Drawing.Point(365, 213)
+        Me.commUserBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.commUserBtn.Name = "commUserBtn"
-        Me.commUserBtn.Size = New System.Drawing.Size(171, 170)
+        Me.commUserBtn.Size = New System.Drawing.Size(128, 138)
         Me.commUserBtn.TabIndex = 26
         Me.commUserBtn.Text = "COMMUNITY SUSPENSION"
         Me.commUserBtn.UseVisualStyleBackColor = False
@@ -120,26 +118,11 @@ Partial Class ManageUsers
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(64, 194)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(47, 149)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(333, 26)
+        Me.Label2.Size = New System.Drawing.Size(276, 22)
         Me.Label2.TabIndex = 27
         Me.Label2.Text = "Manage user account profiles for:"
-        '
-        'manageUsersBtn
-        '
-        Me.manageUsersBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.manageUsersBtn.FlatAppearance.BorderSize = 0
-        Me.manageUsersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.manageUsersBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.manageUsersBtn.Location = New System.Drawing.Point(325, 85)
-        Me.manageUsersBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.manageUsersBtn.Name = "manageUsersBtn"
-        Me.manageUsersBtn.Size = New System.Drawing.Size(239, 46)
-        Me.manageUsersBtn.TabIndex = 28
-        Me.manageUsersBtn.Text = "MANAGE USERS"
-        Me.manageUsersBtn.UseVisualStyleBackColor = False
         '
         'logoutBtn
         '
@@ -147,24 +130,36 @@ Partial Class ManageUsers
         Me.logoutBtn.FlatAppearance.BorderSize = 0
         Me.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logoutBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.logoutBtn.Location = New System.Drawing.Point(701, 85)
-        Me.logoutBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.logoutBtn.Location = New System.Drawing.Point(526, 69)
+        Me.logoutBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.logoutBtn.Name = "logoutBtn"
-        Me.logoutBtn.Size = New System.Drawing.Size(117, 46)
+        Me.logoutBtn.Size = New System.Drawing.Size(88, 37)
         Me.logoutBtn.TabIndex = 29
         Me.logoutBtn.TabStop = False
         Me.logoutBtn.Text = "LOG OUT"
         Me.logoutBtn.UseVisualStyleBackColor = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label1.Location = New System.Drawing.Point(257, 77)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(140, 20)
+        Me.Label1.TabIndex = 30
+        Me.Label1.Text = "MANAGE USERS"
+        '
         'ManageUsers
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.CSAS.My.Resources.Resources.Home
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(853, 591)
+        Me.ClientSize = New System.Drawing.Size(640, 480)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.logoutBtn)
-        Me.Controls.Add(Me.manageUsersBtn)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.commUserBtn)
         Me.Controls.Add(Me.schoolUsersButton)
@@ -173,9 +168,8 @@ Partial Class ManageUsers
         Me.Controls.Add(Me.CloseButton)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MaximumSize = New System.Drawing.Size(853, 591)
-        Me.MinimumSize = New System.Drawing.Size(853, 591)
+        Me.MaximumSize = New System.Drawing.Size(640, 480)
+        Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "ManageUsers"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = " "
@@ -190,6 +184,6 @@ Partial Class ManageUsers
     Friend WithEvents schoolUsersButton As Button
     Friend WithEvents commUserBtn As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents manageUsersBtn As Button
     Friend WithEvents logoutBtn As Button
+    Friend WithEvents Label1 As Label
 End Class

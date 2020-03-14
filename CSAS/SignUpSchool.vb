@@ -27,52 +27,37 @@ Public Class SignUpSchool
         NumText.Text = ""
     End Sub
 
-    Private Sub Province_MouseDown(sender As Object, e As MouseEventArgs) Handles Province.MouseDown
-        Province.Text = ""
+    Private Sub School_MouseDown(sender As Object, e As MouseEventArgs) Handles SklText.MouseDown
+        SklText.Text = ""
     End Sub
 
-    Private Sub City_MouseDown(sender As Object, e As MouseEventArgs) Handles City.MouseDown
-        City.Text = ""
-    End Sub
-
-    Private Sub School_MouseDown(sender As Object, e As MouseEventArgs) Handles School.MouseDown
-        School.Text = ""
-    End Sub
-
-    Private Sub SchoolLevel_MouseDown(sender As Object, e As MouseEventArgs) Handles SchoolLevel.MouseDown
-        SchoolLevel.Text = ""
+    Private Sub SchoolLevel_MouseDown(sender As Object, e As MouseEventArgs) Handles LvlTxt.MouseDown
+        LvlTxt.Text = ""
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim MySqlConn As MySqlConnection
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "server=localhost; userid=root; password=; database=csas"
-        Dim command As New MySqlCommand("insert into signup (FirstName, LastName, CP, Province, City, School, Level) values (@Fn, @Ln, @Cp, @Prov, @City, @Sch, @Lvl)", MySqlConn)
-        command.Parameters.Add("@Fn", MySqlDbType.VarChar).Value = FNtext.Text
-        command.Parameters.Add("@Ln", MySqlDbType.VarChar).Value = LNtext.Text
-        command.Parameters.Add("@Cp", MySqlDbType.VarChar).Value = NumText.Text
-        command.Parameters.Add("@Prov", MySqlDbType.VarChar).Value = Province.Text
-        command.Parameters.Add("@City", MySqlDbType.VarChar).Value = City.Text
-        command.Parameters.Add("@Sch", MySqlDbType.VarChar).Value = School.Text
-        command.Parameters.Add("@Lvl", MySqlDbType.VarChar).Value = SchoolLevel.Text
-        Dim adapter As New MySqlDataAdapter(command)
-        Dim table As New DataTable()
-        adapter.Fill(table)
 
-        If table.Rows.Count() <= 0 Then
-            MessageBox.Show("Sign Up Successful!")
-        Else
-            Me.Hide()
-            Login.Show()
-        End If
-
+        Dim reader As MySqlDataReader
+        Dim command As New MySqlCommand
         Try
             MySqlConn.Open()
+            Dim query As String = "insert into csas.send (id, cp_num, school, lvl)
+            values ('" & FNtext.Text & "', '" & NumText.Text & "', '" & SklText.Text & "', '" & LvlTxt.Text & "')"
+            command = New MySqlCommand(query, MySqlConn)
+            reader = command.ExecuteReader
+
+            MessageBox.Show("Signup Successful!")
             MySqlConn.Close()
-        Catch ex As MySqlException
+            Me.Hide()
+        Catch ex As Exception
             MessageBox.Show(ex.Message)
         Finally
             MySqlConn.Dispose()
+            Login.Show()
+            Me.Dispose()
         End Try
     End Sub
 

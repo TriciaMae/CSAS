@@ -42,12 +42,11 @@ Partial Class SignUp
         Me.Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
-        Me.Minimize.Location = New System.Drawing.Point(769, 7)
-        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
-        Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
-        Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
+        Me.Minimize.Location = New System.Drawing.Point(577, 6)
+        Me.Minimize.MaximumSize = New System.Drawing.Size(20, 20)
+        Me.Minimize.MinimumSize = New System.Drawing.Size(20, 20)
         Me.Minimize.Name = "Minimize"
-        Me.Minimize.Size = New System.Drawing.Size(27, 25)
+        Me.Minimize.Size = New System.Drawing.Size(20, 20)
         Me.Minimize.TabIndex = 2
         Me.Minimize.UseVisualStyleBackColor = False
         '
@@ -61,12 +60,11 @@ Partial Class SignUp
         Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CloseButton.Location = New System.Drawing.Point(819, 7)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
-        Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
-        Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
+        Me.CloseButton.Location = New System.Drawing.Point(614, 6)
+        Me.CloseButton.MaximumSize = New System.Drawing.Size(20, 20)
+        Me.CloseButton.MinimumSize = New System.Drawing.Size(20, 20)
         Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.Size = New System.Drawing.Size(27, 25)
+        Me.CloseButton.Size = New System.Drawing.Size(20, 20)
         Me.CloseButton.TabIndex = 3
         Me.CloseButton.UseVisualStyleBackColor = False
         '
@@ -76,10 +74,9 @@ Partial Class SignUp
         Me.SignUpLabel.BackColor = System.Drawing.Color.Transparent
         Me.SignUpLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.SignUpLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.SignUpLabel.Location = New System.Drawing.Point(509, 78)
-        Me.SignUpLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.SignUpLabel.Location = New System.Drawing.Point(382, 63)
         Me.SignUpLabel.Name = "SignUpLabel"
-        Me.SignUpLabel.Size = New System.Drawing.Size(138, 36)
+        Me.SignUpLabel.Size = New System.Drawing.Size(110, 29)
         Me.SignUpLabel.TabIndex = 5
         Me.SignUpLabel.Text = "SIGN UP"
         '
@@ -94,9 +91,9 @@ Partial Class SignUp
         Me.backBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.backBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
         Me.backBtn.Location = New System.Drawing.Point(0, 0)
-        Me.backBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.backBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.backBtn.Name = "backBtn"
-        Me.backBtn.Size = New System.Drawing.Size(182, 42)
+        Me.backBtn.Size = New System.Drawing.Size(136, 34)
         Me.backBtn.TabIndex = 18
         Me.backBtn.Text = "🡨 BACK TO LOGIN"
         Me.backBtn.UseVisualStyleBackColor = False
@@ -106,10 +103,9 @@ Partial Class SignUp
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(349, 146)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(262, 119)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(455, 53)
+        Me.Label1.Size = New System.Drawing.Size(341, 43)
         Me.Label1.TabIndex = 26
         Me.Label1.Text = "CREATE AN ACCOUNT FOR:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -121,10 +117,10 @@ Partial Class SignUp
         Me.schoolUserBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.schoolUserBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.schoolUserBtn.ForeColor = System.Drawing.Color.Black
-        Me.schoolUserBtn.Location = New System.Drawing.Point(480, 216)
-        Me.schoolUserBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.schoolUserBtn.Location = New System.Drawing.Point(360, 176)
+        Me.schoolUserBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.schoolUserBtn.Name = "schoolUserBtn"
-        Me.schoolUserBtn.Size = New System.Drawing.Size(191, 92)
+        Me.schoolUserBtn.Size = New System.Drawing.Size(143, 75)
         Me.schoolUserBtn.TabIndex = 27
         Me.schoolUserBtn.Text = "SCHOOL SUSPENSION"
         Me.schoolUserBtn.UseVisualStyleBackColor = False
@@ -136,21 +132,21 @@ Partial Class SignUp
         Me.commUserBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.commUserBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.commUserBtn.ForeColor = System.Drawing.Color.Black
-        Me.commUserBtn.Location = New System.Drawing.Point(480, 337)
-        Me.commUserBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.commUserBtn.Location = New System.Drawing.Point(360, 274)
+        Me.commUserBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.commUserBtn.Name = "commUserBtn"
-        Me.commUserBtn.Size = New System.Drawing.Size(191, 92)
+        Me.commUserBtn.Size = New System.Drawing.Size(143, 75)
         Me.commUserBtn.TabIndex = 28
         Me.commUserBtn.Text = "COMMUNITY SUSPENSION"
         Me.commUserBtn.UseVisualStyleBackColor = False
         '
         'SignUp
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.CSAS.My.Resources.Resources.LoginSignUp
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(853, 591)
+        Me.ClientSize = New System.Drawing.Size(640, 480)
         Me.Controls.Add(Me.commUserBtn)
         Me.Controls.Add(Me.schoolUserBtn)
         Me.Controls.Add(Me.Label1)
@@ -159,9 +155,8 @@ Partial Class SignUp
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.Minimize)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MaximumSize = New System.Drawing.Size(853, 591)
-        Me.MinimumSize = New System.Drawing.Size(853, 591)
+        Me.MaximumSize = New System.Drawing.Size(640, 480)
+        Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "SignUp"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SignUp"

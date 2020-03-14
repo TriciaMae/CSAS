@@ -29,11 +29,11 @@ Partial Class SignUpComm
         Me.LNtext = New System.Windows.Forms.TextBox()
         Me.NumText = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Region = New System.Windows.Forms.TextBox()
-        Me.Province = New System.Windows.Forms.TextBox()
+        Me.RegionText = New System.Windows.Forms.TextBox()
+        Me.ProvinceText = New System.Windows.Forms.TextBox()
         Me.backBtn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.CIty = New System.Windows.Forms.TextBox()
+        Me.CityText = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Minimize
@@ -47,12 +47,11 @@ Partial Class SignUpComm
         Me.Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
-        Me.Minimize.Location = New System.Drawing.Point(769, 7)
-        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
-        Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
-        Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
+        Me.Minimize.Location = New System.Drawing.Point(577, 6)
+        Me.Minimize.MaximumSize = New System.Drawing.Size(20, 20)
+        Me.Minimize.MinimumSize = New System.Drawing.Size(20, 20)
         Me.Minimize.Name = "Minimize"
-        Me.Minimize.Size = New System.Drawing.Size(27, 25)
+        Me.Minimize.Size = New System.Drawing.Size(20, 20)
         Me.Minimize.TabIndex = 2
         Me.Minimize.UseVisualStyleBackColor = False
         '
@@ -66,12 +65,11 @@ Partial Class SignUpComm
         Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CloseButton.Location = New System.Drawing.Point(819, 7)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
-        Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
-        Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
+        Me.CloseButton.Location = New System.Drawing.Point(614, 6)
+        Me.CloseButton.MaximumSize = New System.Drawing.Size(20, 20)
+        Me.CloseButton.MinimumSize = New System.Drawing.Size(20, 20)
         Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.Size = New System.Drawing.Size(27, 25)
+        Me.CloseButton.Size = New System.Drawing.Size(20, 20)
         Me.CloseButton.TabIndex = 3
         Me.CloseButton.UseVisualStyleBackColor = False
         '
@@ -81,10 +79,9 @@ Partial Class SignUpComm
         Me.SignUpLabel.BackColor = System.Drawing.Color.Transparent
         Me.SignUpLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.SignUpLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.SignUpLabel.Location = New System.Drawing.Point(509, 78)
-        Me.SignUpLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.SignUpLabel.Location = New System.Drawing.Point(382, 63)
         Me.SignUpLabel.Name = "SignUpLabel"
-        Me.SignUpLabel.Size = New System.Drawing.Size(138, 36)
+        Me.SignUpLabel.Size = New System.Drawing.Size(110, 29)
         Me.SignUpLabel.TabIndex = 5
         Me.SignUpLabel.Text = "SIGN UP"
         '
@@ -94,10 +91,9 @@ Partial Class SignUpComm
         Me.FNtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.FNtext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FNtext.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.FNtext.Location = New System.Drawing.Point(373, 203)
-        Me.FNtext.Margin = New System.Windows.Forms.Padding(4)
+        Me.FNtext.Location = New System.Drawing.Point(280, 165)
         Me.FNtext.Name = "FNtext"
-        Me.FNtext.Size = New System.Drawing.Size(189, 30)
+        Me.FNtext.Size = New System.Drawing.Size(142, 26)
         Me.FNtext.TabIndex = 6
         Me.FNtext.Text = "First Name"
         Me.FNtext.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -108,10 +104,9 @@ Partial Class SignUpComm
         Me.LNtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.LNtext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LNtext.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.LNtext.Location = New System.Drawing.Point(589, 203)
-        Me.LNtext.Margin = New System.Windows.Forms.Padding(4)
+        Me.LNtext.Location = New System.Drawing.Point(442, 165)
         Me.LNtext.Name = "LNtext"
-        Me.LNtext.Size = New System.Drawing.Size(189, 30)
+        Me.LNtext.Size = New System.Drawing.Size(142, 26)
         Me.LNtext.TabIndex = 7
         Me.LNtext.Text = "Last Name"
         Me.LNtext.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -122,10 +117,9 @@ Partial Class SignUpComm
         Me.NumText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NumText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NumText.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.NumText.Location = New System.Drawing.Point(373, 248)
-        Me.NumText.Margin = New System.Windows.Forms.Padding(4)
+        Me.NumText.Location = New System.Drawing.Point(280, 202)
         Me.NumText.Name = "NumText"
-        Me.NumText.Size = New System.Drawing.Size(405, 30)
+        Me.NumText.Size = New System.Drawing.Size(304, 26)
         Me.NumText.TabIndex = 10
         Me.NumText.Text = "Phone Number"
         Me.NumText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -138,40 +132,37 @@ Partial Class SignUpComm
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(484, 448)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Location = New System.Drawing.Point(363, 364)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(187, 43)
+        Me.Button3.Size = New System.Drawing.Size(140, 35)
         Me.Button3.TabIndex = 17
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Region
+        'RegionText
         '
-        Me.Region.BackColor = System.Drawing.Color.White
-        Me.Region.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Region.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Region.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Region.Location = New System.Drawing.Point(373, 295)
-        Me.Region.Margin = New System.Windows.Forms.Padding(4)
-        Me.Region.Name = "Region"
-        Me.Region.Size = New System.Drawing.Size(405, 30)
-        Me.Region.TabIndex = 20
-        Me.Region.Text = "Region"
-        Me.Region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.RegionText.BackColor = System.Drawing.Color.White
+        Me.RegionText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.RegionText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RegionText.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.RegionText.Location = New System.Drawing.Point(280, 240)
+        Me.RegionText.Name = "RegionText"
+        Me.RegionText.Size = New System.Drawing.Size(304, 26)
+        Me.RegionText.TabIndex = 20
+        Me.RegionText.Text = "Region"
+        Me.RegionText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Province
+        'ProvinceText
         '
-        Me.Province.BackColor = System.Drawing.Color.White
-        Me.Province.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Province.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Province.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Province.Location = New System.Drawing.Point(373, 343)
-        Me.Province.Margin = New System.Windows.Forms.Padding(4)
-        Me.Province.Name = "Province"
-        Me.Province.Size = New System.Drawing.Size(405, 30)
-        Me.Province.TabIndex = 23
-        Me.Province.Text = "Province"
-        Me.Province.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ProvinceText.BackColor = System.Drawing.Color.White
+        Me.ProvinceText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.ProvinceText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ProvinceText.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.ProvinceText.Location = New System.Drawing.Point(280, 279)
+        Me.ProvinceText.Name = "ProvinceText"
+        Me.ProvinceText.Size = New System.Drawing.Size(304, 26)
+        Me.ProvinceText.TabIndex = 23
+        Me.ProvinceText.Text = "Province"
+        Me.ProvinceText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'backBtn
         '
@@ -184,11 +175,11 @@ Partial Class SignUpComm
         Me.backBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.backBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
         Me.backBtn.Location = New System.Drawing.Point(0, 0)
-        Me.backBtn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.backBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.backBtn.Name = "backBtn"
-        Me.backBtn.Size = New System.Drawing.Size(182, 42)
+        Me.backBtn.Size = New System.Drawing.Size(136, 34)
         Me.backBtn.TabIndex = 24
-        Me.backBtn.Text = "🡨 BACK TO LOGIN"
+        Me.backBtn.Text = "BACK TO LOGIN"
         Me.backBtn.UseVisualStyleBackColor = False
         '
         'Label1
@@ -196,40 +187,38 @@ Partial Class SignUpComm
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(433, 141)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(325, 115)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(291, 43)
+        Me.Label1.Size = New System.Drawing.Size(218, 35)
         Me.Label1.TabIndex = 25
         Me.Label1.Text = "CREATE ACCOUNT FOR COMMUNITY SUSPENSION"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'CIty
+        'CityText
         '
-        Me.CIty.BackColor = System.Drawing.Color.White
-        Me.CIty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.CIty.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CIty.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.CIty.Location = New System.Drawing.Point(373, 391)
-        Me.CIty.Margin = New System.Windows.Forms.Padding(4)
-        Me.CIty.Name = "CIty"
-        Me.CIty.Size = New System.Drawing.Size(405, 30)
-        Me.CIty.TabIndex = 26
-        Me.CIty.Text = "CIty"
-        Me.CIty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.CityText.BackColor = System.Drawing.Color.White
+        Me.CityText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CityText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CityText.ForeColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.CityText.Location = New System.Drawing.Point(280, 318)
+        Me.CityText.Name = "CityText"
+        Me.CityText.Size = New System.Drawing.Size(304, 26)
+        Me.CityText.TabIndex = 26
+        Me.CityText.Text = "City"
+        Me.CityText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'SignUpComm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.CSAS.My.Resources.Resources.LoginSignUp
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(853, 591)
-        Me.Controls.Add(Me.CIty)
+        Me.ClientSize = New System.Drawing.Size(640, 480)
+        Me.Controls.Add(Me.CityText)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.backBtn)
-        Me.Controls.Add(Me.Province)
-        Me.Controls.Add(Me.Region)
+        Me.Controls.Add(Me.ProvinceText)
+        Me.Controls.Add(Me.RegionText)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.NumText)
         Me.Controls.Add(Me.LNtext)
@@ -238,9 +227,8 @@ Partial Class SignUpComm
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.Minimize)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MaximumSize = New System.Drawing.Size(853, 591)
-        Me.MinimumSize = New System.Drawing.Size(853, 591)
+        Me.MaximumSize = New System.Drawing.Size(640, 480)
+        Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "SignUpComm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SignUp"
@@ -256,9 +244,9 @@ Partial Class SignUpComm
     Friend WithEvents LNtext As TextBox
     Friend WithEvents NumText As TextBox
     Friend WithEvents Button3 As Button
-    Friend WithEvents Region As TextBox
-    Friend WithEvents Province As TextBox
+    Friend WithEvents RegionText As TextBox
+    Friend WithEvents ProvinceText As TextBox
     Friend WithEvents backBtn As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents CIty As TextBox
+    Friend WithEvents CityText As TextBox
 End Class

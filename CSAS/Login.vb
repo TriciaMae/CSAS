@@ -14,7 +14,6 @@ Public Class Login
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-
     Private Sub LoginButton_Click(sender As Object, e As EventArgs) Handles LoginButton.Click
         Dim MySqlConn As MySqlConnection
         MySqlConn = New MySqlConnection
@@ -28,9 +27,19 @@ Public Class Login
 
         If table.Rows.Count() <= 0 Then
             MessageBox.Show("Username or Password is Invalid!")
-        Else
+        ElseIf (TextUser.Text = "" Or TextUser.Text = "") Then
+            MessageBox.Show("Please enter username or password!")
+        ElseIf (TextUser.Text = "tricia" Or TextUser.Text = "samboy") Then
             Me.Hide()
             AdminHome.Show()
+        ElseIf (TextUser.Text = "timot" And TextPass.Text = "timot") Then
+            Me.Hide()
+            UserHomeComm.Show()
+        ElseIf (TextUser.Text = "leanne" And TextPAss.Text = "leanne") Then
+            Me.Hide()
+            UserHomeSchool.Show()
+        Else
+            MessageBox.Show("Username or Password is Invalid!")
         End If
 
         Try

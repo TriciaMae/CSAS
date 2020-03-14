@@ -29,7 +29,7 @@ Public Class Community
                 'Using client As New Net.WebClient
                 System.Threading.Thread.Sleep(2000)
                 'query for getting the data selected in the combobox
-                Dim Query As String = "select cp from csas.tricia where region = '" & RegionCombo.Text & "' and city = '" & CityCombo.Text & "' or province = '" & ProvCombo.Text & "' and lvl = '" & SchoolLevel.Text & "'     "
+                Dim Query As String = "select cp from csas.comm where region = '" & RegionCombo.Text & "' and city = '" & CityCombo.Text & "' or province = '" & ProvCombo.Text & "' and lvl = '" & SchoolLevel.Text & "'     "
                 'transfer query to mysql command 'command'
                 command = New MySqlCommand(Query, MySqlConn)
 
@@ -64,8 +64,8 @@ Public Class Community
 
     Private Sub CancellButton_Click(sender As Object, e As EventArgs) Handles CancellButton.Click
         Me.Hide()
-        Dim x As New AdminHome
         AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -83,7 +83,9 @@ Public Class Community
     End Sub
 
     Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
-        Me.Close()
+        Me.Hide()
+        AdminHome.Show()
+        Me.Dispose()
     End Sub
 
     Private Sub Community_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -98,7 +100,7 @@ Public Class Community
             MySqlConn.Open()
 
             'query to get all values in send table
-            Dim Query As String = "select * from csas.tricia"
+            Dim Query As String = "select * from csas.comm"
 
             'transfer query to mysql command 'command'
             command = New MySqlCommand(Query, MySqlConn)

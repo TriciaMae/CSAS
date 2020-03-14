@@ -1,5 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class AddUser
+Public Class EditSchoolUser
     Private Sub AddUserButton_Click(sender As Object, e As EventArgs) Handles AddBtn.Click
         Dim MySqlConn As MySqlConnection
         MySqlConn = New MySqlConnection
@@ -21,5 +21,18 @@ Public Class AddUser
         Finally
             MySqlConn.Dispose()
         End Try
+    End Sub
+
+    Private Sub CloseButton_Click(sender As Object, e As EventArgs) Handles CloseButton.Click
+        Me.Close()
+        ManageSchoolUsers.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+        ManageSchoolUsers.Show()
+    End Sub
+    Private Sub Minimize_Click(sender As Object, e As EventArgs) Handles Minimize.Click
+        Me.WindowState = FormWindowState.Minimized
     End Sub
 End Class

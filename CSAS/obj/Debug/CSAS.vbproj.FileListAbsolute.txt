@@ -133,10 +133,7 @@ C:\Users\Tedbu\source\repos\CSAS\CSAS\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\Tedbu\source\repos\CSAS\CSAS\bin\Debug\Renci.SshNet.dll
 C:\Users\Tedbu\source\repos\CSAS\CSAS\bin\Debug\MySql.Data.xml
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.vbprojAssemblyReference.cache
-C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.EditUser.resources
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.AdminHome.resources
-C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.AddUser.resources
-C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.Deactivate.resources
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.PopUpTemplate.resources
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.ManageUsers.resources
 C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.School.resources
@@ -213,4 +210,13 @@ C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.vbproj.CopyCompl
 C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.exe
 C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.xml
 C:\Users\sambo\OneDrive\Desktop\CSAS-master\CSAS\obj\Debug\CSAS.pdb
-C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.UserHome.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.ManageCommUsers.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.ManageSchoolUsers.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.SignUpComm.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.SignUpSchool.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.UserHomeComm.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.UserHomeSchool.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.EditCommUser.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.EditSchoolUser.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.Deactive.resources
+C:\Users\Tedbu\source\repos\CSAS\CSAS\obj\Debug\CSAS.Deactive2.resources
